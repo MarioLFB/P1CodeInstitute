@@ -1,5 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Lilita+One&family=Orbitron:wght@500&family=Raleway:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cabin:wght@500&family=Lilita+One&family=Orbitron:wght@500&family=Raleway:wght@200&display=swap');
+
 
 
 * {
@@ -15,7 +17,7 @@ body {
 }
 
 header { /*cor de fundo do NAV e flex para alinhar a logo e os links de navegacao dentro do container*/
-    background-color:rgb(3, 36, 110);
+    background-color: rgba(2, 0, 38);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -64,13 +66,12 @@ h1 {  /*LOGO*/
     border-bottom: 1px solid #ffffff;
 }
 
-nav {
+nav { /*configura a barra que abre quando clicado o hamburguer*/
     position: absolute;
-    background-color:rgb(3, 36, 110);
+    background-color: rgba(2, 0, 38);
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;  
 }
@@ -95,29 +96,32 @@ nav {
 /*MAIN*/
 
 h3 { /*fonte cor e etc... da primeira section*/
-    color: rgb(3, 36, 110);
-    font-size: 30px;
-    font-family: 'Raleway', sans-serif;
+    color: rgb(252, 204, 46);
+    font-size: 35px;
+    font-family: 'Anton', sans-serif;
 }
 
 p { /*fonte cor e etc.. de paragrafos mas por enquanto so tem um paragrado entao nao tem class e id, pertence a section1*/
     font-family: 'Orbitron', sans-serif;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 12px;
 }
 
 .section1 { /*posicionamento do titulo h3 p e a imagem da section 1*/
+    background: linear-gradient(to bottom, rgb(2, 0, 38), rgb(0, 0, 0));
     display: flex;
-    justify-content: space-between;
-    margin-top: 24vw;
-    margin-left: 2vw;
-    flex-direction: column;
-    width: 60%;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    text-align: center;
+    margin-top: 20%;
+    border-bottom: 10px solid rgba(2, 0, 38);
+    
 }
 
 #imgbg1 {
-    background-image: url('Assets/Images/Dark_Blue_credit_card_with_NebulaBank_name_cosmi.jpg');
-    opacity: 1;
+    margin-top: 10vw;
+    width: 60%;
 }
 
 

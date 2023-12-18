@@ -1,16 +1,14 @@
 
-
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cabin:wght@500&family=Lilita+One&family=Orbitron:wght@500&family=Raleway:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Cabin:wght@500&family=Lilita+One&family=Orbitron:wght@500&family=Raleway:wght@200&display=swap');
 
 
-* {
+* {   /*configuracao inicial padrao*/
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body {
+body { /*configuracao inicial padrao do BODY*/
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -58,11 +56,11 @@ h1 {  /*LOGO*/
     margin-left: 2%;
 }
 
-#menu > li {
+#menu > li { /*configuracao da margem bottom da lista */
     margin-bottom: 1em;
 }
 
-.active {
+.active { /*configuracao somente do HOME criando linha na borda BOTTOM*/
     border-bottom: 1px solid #ffffff;
 }
 
@@ -107,23 +105,73 @@ p { /*fonte cor e etc.. de paragrafos mas por enquanto so tem um paragrado entao
     font-size: 12px;
 }
 
-.section1 { /*posicionamento do titulo h3 p e a imagem da section 1*/
-    background: linear-gradient(to bottom, rgb(2, 0, 38), rgb(0, 0, 0));
+
+.mainsection {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80%;
-    text-align: center;
-    margin-top: 20%;
-    border-bottom: 10px solid rgba(2, 0, 38);
-    
+    flex-direction: column;
+    margin-top: 55px;
 }
 
-#imgbg1 {
-    margin-top: 10vw;
-    width: 60%;
+#signupsection { /*Configuracao do container OPEN ACCOUNT*/
+    background-color: orange;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#signup { /*Configuracao do texto do OPEN ACCOUNT*/
+    color:  rgba(2, 0, 38);
+    font-size: 15px;
+    font-family: 'Bungee', sans-serif;
+    text-decoration: none;
+}
+
+#cardicon { /*Configuracao do ICONE DO CARTAO*/
+    margin-left: 5px;
+}
+
+
+.section1 {
+    background-color: rgba(2, 0, 38);
 }
 
 
 /*FOOTER*/
 
+
+
+
+
+
+/* CONFIGURACOES DE MEDIA QUERY */
+
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {...}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {...}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {
+    #signupsection { /*Configuracao do container OPEN ACCOUNT*/
+        background-color: orange;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex: row;
+        align-items: center;
+        justify-content: center;
+        display: none
+
+}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {...}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {...}

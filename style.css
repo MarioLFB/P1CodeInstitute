@@ -116,6 +116,7 @@ p { /*fonte cor e etc.. de paragrafos mas por enquanto so tem um paragrado entao
     background-color: orange;
     width: 100%;
     height: 60px;
+    margin-top: 20px;
     display: flex;
     flex: row;
     align-items: center;
@@ -159,16 +160,27 @@ p { /*fonte cor e etc.. de paragrafos mas por enquanto so tem um paragrado entao
 /*Dispostivos Médios (Tablets deitados, 768px para cima) */
 @media only screen and (min-width: 768px) {
     #signupsection { /*Configuracao do container OPEN ACCOUNT*/
-        background-color: orange;
-        width: 100%;
-        height: 60px;
-        display: flex;
-        flex: row;
-        align-items: center;
-        justify-content: center;
         display: none
 
 }
+#nav-toggle:checked~nav {
+    display: none;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label { /*configuracao do botao do menu*/
+    display: none;
+    
+}
+
+
+
+}
+
+
 
 /* Dispostivos Largos (laptops/desktops, 992px para cima) */
 @media only screen and (min-width: 992px) {...}

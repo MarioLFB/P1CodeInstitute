@@ -37,7 +37,7 @@ header a {
 h1 {  /*LOGO*/
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     letter-spacing: 1px;
     font-weight: 800;
     font-family: 'Lilita', sans-serif;
@@ -104,6 +104,7 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
     margin-top: 55px;
     align-items: center;
     align-content: center;
+
 }
 
 /*BARRA AMARELA DE OPEN ACCOUNT*/
@@ -138,17 +139,47 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 
 .section1 {
     height: 25vh;
-    width: 45vh;
+    width: 50vh;
     background: linear-gradient(to bottom right, rgb(200, 200, 250), rgb(150, 150, 200));
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: center;
-    color: rgb(6, 3, 58);
+    color: rgb(9, 5, 71);
     font-family: 'Lilita One', sans-serif;
     font-size: 18px;
     line-height: 5vh;
-    
+    display: flex;
+    border-radius: 10%;
 
 }
+
+.cashback {
+height: 20vh;
+width: 20vh;
+
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.subsection2 {
+    height: 20vh;
+    width: 25vh;
+    background: linear-gradient(to bottom right, rgb(255, 255, 220), rgb(220, 220, 170));
+    margin-top: 5%;
+    color: rgb(9, 5, 71);
+    font-family: 'Lilita One', sans-serif;
+    font-size: 18px;
+    line-height: 5vh;
+    border-radius: 10%;
+    border: 5px solid white;
+
+
+
+
 
 
 

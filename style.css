@@ -1,5 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Cabin:wght@500&family=Lilita+One&family=Orbitron:wght@500&family=Raleway:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bungee&family=Cabin:wght@500&family=Lilita+One&family=Orbitron:wght@500&family=Raleway:wght@200&display=swap');
+
 
 
 * {   /*configuracao inicial padrao*/
@@ -136,11 +138,14 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 
 .section1 {
     height: 25vh;
-    width: 50vh;
+    width: 45vh;
     background: linear-gradient(to bottom right, rgb(200, 200, 250), rgb(150, 150, 200));
     margin-top: 10%;
     text-align: center;
-    color: rgba(2, 0, 38);
+    color: rgb(6, 3, 58);
+    font-family: 'Lilita One', sans-serif;
+    font-size: 18px;
+    line-height: 5vh;
     
 
 }

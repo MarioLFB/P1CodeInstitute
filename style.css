@@ -21,10 +21,11 @@ header { /*cor de fundo do NAV e flex para alinhar a logo e os links de navegaca
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
     height: 15%;
 
 }
@@ -41,8 +42,8 @@ h1 {  /*LOGO*/
     letter-spacing: 1px;
     font-weight: 800;
     font-family: 'Lilita', sans-serif;
-    margin-left: 1px;
-    margin-bottom: 5px;
+    margin-left: 1vw;
+    
 }
 
 
@@ -88,8 +89,7 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 .nav-toggle-label { /*configuracao do botao do menu*/
     font-size: 1.5rem;
     color: white;
-    margin-right: 10px;
-    margin-bottom: 2vw;
+    margin-top: 2vh;
 }
 
 
@@ -101,7 +101,7 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 .mainsection { /*Enrola toda as sections em uma so*/
     display: flex;
     flex-direction: column;
-    margin-top: 55px;
+    margin-top: 11vh;
     align-items: center;
     align-content: center;
 
@@ -112,8 +112,8 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 #signupsection { /*Configuracao do container OPEN ACCOUNT*/
     background-color: orange;
     width: 100vw;
-    height: 90px;
-    margin-top: 30px;
+    height: 10vh;
+    margin-top: 5vh;
     display: flex;
     flex: row;
     justify-content: center;
@@ -129,7 +129,8 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 }
 
 #cardicon { /*Configuracao do ICONE DO CARTAO*/
-    margin-left: 5px;
+    margin-left: 5vw;
+    margin-top: 1vh;
 }
 
 
@@ -139,13 +140,13 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 
 .section1 {
     height: 25vh;
-    width: 50vh;
+    width: 95vw;
     background: linear-gradient(to bottom right, rgb(200, 200, 250), rgb(150, 150, 200));
-    margin-top: 5%;
+    margin-top: 2vh;
     text-align: center;
     color: rgb(9, 5, 71);
     font-family: 'Lilita One', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 5vh;
     display: flex;
     border-radius: 10%;
@@ -153,15 +154,14 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 }
 
 section > h2 {
-    margin-top: 5%;
-    margin-left: 5px;
+    margin-top: 3vh;
+    margin-right: 5vw;
 }
 
 .cashback {
-max-width: 100%;
+max-width: 100vw;
 height: 20vh;
-width: 20vh;
-
+width: 45vw;
 }
 
 .section2 {
@@ -169,28 +169,28 @@ width: 20vh;
     flex-direction: column;
     align-items: center;
     align-content: center;
-    margin-top: 10%;
+    margin-top: 5vh;
 
 }
 
 .primedigitalimage {
-    max-width: 100%;
+    max-width: 100vw;
 
 }
 
 section > figure > h3 {
     color: rgb(9, 5, 71);
     font-family: 'Lilita One', sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
 }
 
 section > figure > p {
     color: rgb(145, 128, 99);
     font-family: 'Lilita One', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 3vh;
 
 
 
@@ -215,29 +215,7 @@ section > figure > p {
 @media only screen and (min-width: 600px) {...}
 
 /*Dispostivos Médios (Tablets deitados, 768px para cima) */
-@media only screen and (min-width: 768px) {
-    #signupsection { /*Configuracao do container OPEN ACCOUNT*/
-        display: none
-
-}
-#nav-toggle:checked~nav {
-    display: none;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label { /*configuracao do botao do menu*/
-    display: none;
-    
-}
-
-
-
-}
-
-
+@media only screen and (min-width: 768px) {}
 
 /* Dispostivos Largos (laptops/desktops, 992px para cima) */
 @media only screen and (min-width: 992px) {...}

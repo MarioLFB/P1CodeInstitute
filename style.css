@@ -8,12 +8,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
 }
 
-body { /*configuracao inicial padrao do BODY*/
+html, body { /*configuracao inicial padrao do BODY*/
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 header { /*cor de fundo do NAV e flex para alinhar a logo e os links de navegacao dentro do container*/
@@ -110,10 +112,10 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 /*BARRA AMARELA DE OPEN ACCOUNT*/
 
 #signupsection { /*Configuracao do container OPEN ACCOUNT*/
-    background-color: orange;
+    background-color: rgb(238, 169, 40);
     width: 100vw;
-    height: 10vh;
-    margin-top: 5vh;
+    height: 15vh;
+    margin-top: 2vh;
     display: flex;
     flex: row;
     justify-content: center;
@@ -123,9 +125,10 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 
 #signup { /*Configuracao do texto do OPEN ACCOUNT*/
     color:  rgba(2, 0, 38);
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Bungee', sans-serif;
     text-decoration: none;
+    text-align: center;
 }
 
 #cardicon { /*Configuracao do ICONE DO CARTAO*/
@@ -143,21 +146,16 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
     margin-top: 2vh;
     border-left: 10px solid rgb(243, 240, 209);
     border-right: 10px solid rgb(243, 240, 209);
-    opacity: 0.6;
+    opacity: 0.7;
     width: 80%;
     height: 50vh;
 }
-
-
-
 
 #h3section1 {
 font-size: 35px;
 margin-left: 5vw;
 margin-top: 3vh;
 font-family: 'Raleway', sans-serif;
-
-
 
 }
 #h2section1{
@@ -175,21 +173,47 @@ font-family: 'Raleway', sans-serif;
 
 }
 
-
-
-
-
-
-
-
-
+/*IMAGEM ENTRE A SECTION 1 E SECIOTN 2 CASHBACK*/
 
 .cashback {
 max-width: 100vw;
-opacity: 0.2;
+opacity: 0.4;
 position: relative;
-bottom: 14vh;
 margin-left: 5vw;
+}
+
+
+/*IMAGEM CEO ENTRE A SECTION 1 E SECIOTN 2 CASHBACK*/
+
+
+    .ceosection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    margin-bottom: 20vh;
+    
+  }
+  
+  .ceosection #ceophoto {
+    max-width: 80vw; 
+    border: 1px solid rgb(204, 182, 182);
+    border-radius: 50%;
+    margin-bottom: 3vh;
+  }
+  
+  .ceosection p {
+    flex-grow: 1; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(2, 0, 38);
+  }
+
+
+
+
+/*AQUI COMECA O SECTION 2 */
 
 
 }

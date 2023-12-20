@@ -139,29 +139,59 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 /*AQUI COMECA O SECTION 1 */
 
 .section1 {
-    height: 25vh;
-    width: 95vw;
-    background: linear-gradient(to bottom right, rgb(200, 200, 250), rgb(150, 150, 200));
+    max-width: 100vw;
     margin-top: 2vh;
-    text-align: center;
-    color: rgb(9, 5, 71);
-    font-family: 'Lilita One', sans-serif;
-    font-size: 15px;
-    line-height: 5vh;
-    display: flex;
-    border-radius: 10%;
+    border-left: 10px solid rgb(243, 240, 209);
+    border-right: 10px solid rgb(243, 240, 209);
+    opacity: 0.6;
+    width: 80%;
+    height: 50vh;
+}
+
+
+
+
+#h3section1 {
+font-size: 35px;
+margin-left: 5vw;
+margin-top: 3vh;
+font-family: 'Raleway', sans-serif;
+
+
+
+}
+#h2section1{
+    font-size: 17px;
+    margin-left: 5vw;
+    margin-top: 1vh;
+    font-family: 'Raleway', sans-serif;
+
+}
+.psection1{
+    font-size: 20px;
+    margin-left:15vw;
+    margin-top: 5vh;
+    font-family: 'Raleway', sans-serif;
 
 }
 
-section > h2 {
-    margin-top: 3vh;
-    margin-right: 5vw;
-}
+
+
+
+
+
+
+
+
 
 .cashback {
 max-width: 100vw;
-height: 20vh;
-width: 45vw;
+opacity: 0.2;
+position: relative;
+bottom: 14vh;
+margin-left: 5vw;
+
+
 }
 
 .section2 {
@@ -169,7 +199,7 @@ width: 45vw;
     flex-direction: column;
     align-items: center;
     align-content: center;
-    margin-top: 5vh;
+    margin-top: 200vh;
 
 }
 

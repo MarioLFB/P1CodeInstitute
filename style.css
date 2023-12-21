@@ -114,7 +114,7 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 #signupsection { /*Configuracao do container OPEN ACCOUNT*/
     background-color: rgb(238, 169, 40);
     width: 100vw;
-    height: 15vh;
+    height: 10vh;
     margin-top: 2vh;
     display: flex;
     flex: row;
@@ -125,7 +125,7 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 
 #signup { /*Configuracao do texto do OPEN ACCOUNT*/
     color:  rgba(2, 0, 38);
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Bungee', sans-serif;
     text-decoration: none;
     text-align: center;
@@ -133,7 +133,7 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 
 #cardicon { /*Configuracao do ICONE DO CARTAO*/
     margin-left: 5vw;
-    margin-top: 1vh;
+    color: inherit;
 }
 
 
@@ -152,7 +152,7 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 }
 
 #h3section1 {
-font-size: 35px;
+font-size: 25px;
 margin-left: 5vw;
 margin-top: 3vh;
 font-family: 'Raleway', sans-serif;
@@ -166,27 +166,17 @@ font-family: 'Raleway', sans-serif;
 
 }
 .psection1{
-    font-size: 20px;
+    font-size: 15px;
     margin-left:15vw;
     margin-top: 5vh;
     font-family: 'Raleway', sans-serif;
 
 }
 
-/*IMAGEM ENTRE A SECTION 1 E SECIOTN 2 CASHBACK*/
-
-.cashback {
-max-width: 100vw;
-opacity: 0.4;
-position: relative;
-margin-left: 5vw;
-}
-
 
 /*IMAGEM CEO ENTRE A SECTION 1 E SECIOTN 2 CASHBACK*/
 
-
-    .ceosection {
+.ceosection {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -196,7 +186,7 @@ margin-left: 5vw;
   }
   
   .ceosection #ceophoto {
-    max-width: 80vw; 
+    max-width: 60vw; 
     border: 1px solid rgb(204, 182, 182);
     border-radius: 50%;
     margin-bottom: 3vh;
@@ -210,6 +200,7 @@ margin-left: 5vw;
     color: rgba(2, 0, 38);
   }
 
+ 
 
 
 

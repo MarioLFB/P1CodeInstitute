@@ -115,7 +115,7 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 /*BARRA AMARELA DE OPEN ACCOUNT*/
 
 #signupsection { /*Configuracao do container OPEN ACCOUNT*/
-    background-color: rgb(238, 169, 40);
+    background: linear-gradient(to bottom, #FFA500, #FFD700);
     width: 100vw;
     height: 10vh;
     margin-top: 2vh;
@@ -232,6 +232,7 @@ text-align: center;
     width: 70vw;
     height: 30vh;
     background-color: rgb(243, 240, 209, 0.4);
+    padding: 20px;
 }
 
 .subsection2 h2, .subsection2 h3 {

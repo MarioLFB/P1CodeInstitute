@@ -28,7 +28,7 @@ header { /*cor de fundo do NAV e flex para alinhar a logo e os links de navegaca
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    height: 15%;
+    height: 13vh;
 
 }
 
@@ -37,12 +37,15 @@ header a {
     color: white;
 }
 
-h1 {  /*LOGO*/
+
+ /*LOGO*/
+
+#logo { 
     text-decoration: none;
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     letter-spacing: 1px;
-    font-weight: 800;
+    font-weight: 700;
     font-family: 'Lilita', sans-serif;
     margin-left: 1vw;
     
@@ -72,7 +75,7 @@ h1 {  /*LOGO*/
 nav { /*configura a barra que abre quando clicado o hamburguer*/
     position: absolute;
     background-color: rgba(2, 0, 38);
-    width: 100%;
+    width: 100vw;
     left: 0;
     padding: 0 1rem;
     display: none;
@@ -91,7 +94,7 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 .nav-toggle-label { /*configuracao do botao do menu*/
     font-size: 1.5rem;
     color: white;
-    margin-top: 2vh;
+    margin-right: 1vw;
 }
 
 

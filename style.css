@@ -190,7 +190,8 @@ font-family: 'Raleway', sans-serif;
   
   .ceosection #ceophoto {
     max-width: 60vw; 
-    border: 1px solid rgb(204, 182, 182);
+    border-top:  15px solid rgb(243, 240, 209);
+    border-bottom:  15px solid rgb(243, 240, 209);
     border-radius: 50%;
     margin-bottom: 3vh;
   }
@@ -209,38 +210,26 @@ font-family: 'Raleway', sans-serif;
 
 /*AQUI COMECA O SECTION 2 */
 
-
-}
-
 .section2 {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    align-content: center;
-    margin-top: 200vh;
+    margin-top: -15vh;
+    border-left: 10px solid rgb(243, 240, 209);
+    border-right: 10px solid rgb(243, 240, 209);
+    opacity: 0.7;
+    width: 90vw;
+    height: 120vh;
 
 }
 
-.primedigitalimage {
-    max-width: 100vw;
-
+.subsection2 {
+    width: 70vw;
+    height: 50vh;
+    background-color: rgb(243, 240, 209);
+    opacity: 0.4;
 }
-
-section > figure > h3 {
-    color: rgb(9, 5, 71);
-    font-family: 'Lilita One', sans-serif;
-    font-size: 35px;
-    text-align: center;
-}
-
-section > figure > p {
-    color: rgb(145, 128, 99);
-    font-family: 'Lilita One', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    margin-top: 3vh;
-
-
 
 
 

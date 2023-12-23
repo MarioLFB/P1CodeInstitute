@@ -339,17 +339,15 @@ input {
 .footer {
     background-color:  rgba(2, 0, 38);
     width: 100vw;
-    height: 15vh;
-    margin-top: 2vh;
-
-
+    height: 12vh;
+    margin-top: 4vh;
 }
-.footer > h2 {
+
+.footer h2 {
     color: rgb(243, 240, 209);
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     text-align: center;
-    margin-top: 4vh;
 }
 
 .footer ul {

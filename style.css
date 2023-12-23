@@ -310,7 +310,7 @@ label {
 
 input {
     width: 70vw;
-    height: 3vh;
+    height: 22px;
     margin-bottom: 2vh;
     border: 1px solid rgba(2, 0, 38, 0.2);
 }

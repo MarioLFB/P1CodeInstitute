@@ -101,8 +101,6 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 /*MAIN*/
 
 
-
-
 .mainsection { /*Enrola toda as sections em uma so*/
     display: flex;
     flex-direction: column;

@@ -16,6 +16,7 @@ html, body { /*configuracao inicial padrao do BODY*/
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    
 }
 
 header { /*cor de fundo do NAV e flex para alinhar a logo e os links de navegacao dentro do container*/

@@ -388,6 +388,10 @@ input {
     border-radius: 10%;
 }
 
+.bodyb {
+    background-color: rgb(243, 240, 209);
+}
+
 
 /* CONFIGURACOES DE MEDIA QUERY */
 

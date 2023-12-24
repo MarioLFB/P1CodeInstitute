@@ -340,7 +340,7 @@ input {
     background-color:  rgba(2, 0, 38);
     width: 100vw;
     height: 12vh;
-    margin-top: 4vh;
+    margin-top: 4vh; 
 }
 
 .footer h2 {
@@ -348,11 +348,14 @@ input {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     text-align: center;
+    position: relative;
+    top: 30px;
 }
 
 .footer ul {
     display: flex;
     list-style-type: none;
+    margin-top: 25px;
 }
 
 .footer a {

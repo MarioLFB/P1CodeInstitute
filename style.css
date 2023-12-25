@@ -60,9 +60,9 @@ header a {
     font-size: 100%;
     letter-spacing: 1px;
     list-style-type: none;
-    font-family: 'Lilita', sans-serif;
-    font-weight: 700;
+    font-family: 'Bungee', sans-serif;
     margin-left: 2%;
+    color: rgb(243, 240, 209);
 }
 
 #menu > li { /*configuracao da margem bottom da lista */
@@ -424,10 +424,23 @@ input {
         display: none;
     }
 
+    /* NAV BAR SIGNUP BUTTOM */
+    
     .signupnavbar {
         background-color: orange;
         padding: 15px;
-        border-radius: 10%;
+        border-radius: 5%;
+    }
+
+    #logo { 
+        text-decoration: none;
+        color: rgb(243, 240, 209);
+        font-size: 40px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-family: 'Lilita', sans-serif;
+        margin-left: 1vw;
+        
     }
   
 /* OPEN ACCOUNT BAR*/

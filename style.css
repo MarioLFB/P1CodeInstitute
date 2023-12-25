@@ -526,7 +526,7 @@ input {
             top: 5vh;
           }
 
-          /*  NEBULA APP SECTION2 */
+          /*  NEBULA APP SECTION2 */ /*  EMPOWERING SECTION2 */
 
           .section2 {
             display: flex;
@@ -555,15 +555,70 @@ input {
             text-align: center;
             font-family: 'Raleway', sans-serif;
             font-size: 30px;
-            
-           
         }
 
+/*  GET IN TOUCH WITH US FORM */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(243, 240, 209, 0.7);
+    width: 45vw;
+    height: 37vh;
+    margin: 3vh 5vw;
+}
 
+form {
+    border-left: none;
+    border-right: none;
+    width: 100%;
+}
 
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vh;
+}
 
+legend {
+    text-align: center;
+    font-family: 'Bungee', sans-serif;
+    color: rgba(2, 0, 38);
+    font-size: 20px;
+}
 
-          /*  EMPOWERING SECTION2 */
+label {
+    color: rgba(2, 0, 38);
+    font-family: 'Lilita one', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+input {
+    width: 40vw;
+    height: 30px;
+    margin-bottom: 2vh;
+    border: 1px solid rgba(2, 0, 38, 0.2);
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.contact form input[type="submit"] {
+    border: 1px solid rgba(2, 0, 38, 0.2);
+    color: rgba(2, 0, 38);
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: 'Lilita one', sans-serif;
+    width: 10vw;
+    height: 3vh;
+    margin-bottom: 10vh;
+    position: relative;
+    right: 27.5%;
+    bottom: 2%;
+}
+
        
     
 }

@@ -143,6 +143,12 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 
 /*AQUI COMECA O SECTION 1 */
 
+.section1wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .section1 {
     max-width: 100vw;
     margin-top: 2vh;
@@ -453,14 +459,46 @@ input {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
+    .section1wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
     .section1 {
         max-width: 100vw;
-        margin-top: 2vh;
-        border-left: 10px solid rgb(243, 240, 209, 0.7);
-        border-right: 10px solid rgb(243, 240, 209, 0.7);
-        width: 80%;
-        height: 50vh;
+        margin-top: -15px;
+        border-left: none;
+        border-right: none;
+        background-color: rgb(243, 240, 209, 0.7);
+        width: 100%;
+        height: 60vh;
     }
+
+    #h3section1 {
+        font-size: 45px;
+        margin-left: 5vw;
+        margin-top: 3vh;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        
+        }
+        #h2section1{
+            font-size: 25px;
+            margin-left: 5vw;
+            margin-top: 1vh;
+            font-family: 'Raleway', sans-serif;
+            text-align: center;
+        
+        }
+        .psection1{
+            font-size: 20px;
+            margin-left:15vw;
+            margin-top: 5vh;
+            font-family: 'Raleway', sans-serif;
+        
+        }
     
 }
 

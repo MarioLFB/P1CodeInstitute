@@ -411,6 +411,15 @@ input {
         margin-left: auto;
         align-items: center;
     }
+
+    #menu > li {
+        margin-bottom: 0;
+        margin-left: 20px;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
   
    
 }

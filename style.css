@@ -211,9 +211,6 @@ text-align: center;
   }
 
  
-
-
-
 /*AQUI COMECA O SECTION 2 */
 
 .section2 {
@@ -459,11 +456,14 @@ input {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
+/* MAIN */
+/* NEBULA ACCOUNT SECTION */
     .section1wrap {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        max-width: 100vw;
     }
 
     .section1 {
@@ -472,33 +472,64 @@ input {
         border-left: none;
         border-right: none;
         background-color: rgb(243, 240, 209, 0.7);
-        width: 100%;
+        width: 50vw;
         height: 60vh;
     }
 
     #h3section1 {
         font-size: 45px;
-        margin-left: 5vw;
-        margin-top: 3vh;
+        margin-left: 0vw;
+        margin-top: 5vh;
         font-family: 'Raleway', sans-serif;
         text-align: center;
         
         }
         #h2section1{
             font-size: 25px;
-            margin-left: 5vw;
+            margin-left: 0vw;
             margin-top: 1vh;
             font-family: 'Raleway', sans-serif;
             text-align: center;
         
         }
-        .psection1{
+        .psection1 {
             font-size: 20px;
-            margin-left:15vw;
-            margin-top: 5vh;
+            margin-left:10vw;
+            margin-top: 6vh;
             font-family: 'Raleway', sans-serif;
-        
         }
+
+        /* CEO IMAGE */
+
+        .ceosection {
+            max-width: 100vw;
+            width: 50vw;
+        }
+
+        .ceosection #ceophoto {
+            max-width: 100vw; 
+            border-top:  15px solid rgb(243, 240, 209);
+            border-bottom:  15px solid rgb(243, 240, 209);
+            border-radius: 50%;
+            margin-bottom: none;
+            position: relative;
+            top: 5vh;
+          }
+          
+          .ceosection p {
+            flex-grow: 1; 
+            font-family: 'Raleway', sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            color: rgba(2, 0, 38);
+            position: relative;
+            top: 5vh;
+          }
+
+          /*  NEBULA APP SECTION2 */
+
+          /*  EMPOWERING SECTION2 */
+       
     
 }
 

@@ -528,6 +528,41 @@ input {
 
           /*  NEBULA APP SECTION2 */
 
+          .section2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 0vh;
+            border-left: none;
+            border-right: none;
+            width: 100vw;
+            height: 50vh;
+        
+        }
+        
+        .subsection2 {
+            width: 90vw;
+            height: 25vh;
+            background-color: rgba(2, 0, 38);
+            padding: 10px;
+            margin-top: 2vh;
+            
+        }
+        
+        .subsection2 h2, .subsection2 h3 {
+            color: rgb(243, 240, 209);
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            font-size: 30px;
+            
+           
+        }
+
+
+
+
+
           /*  EMPOWERING SECTION2 */
        
     

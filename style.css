@@ -370,7 +370,6 @@ input {
     font-size: 20px;
 }
 
-/* SECOND PAGE SIGNUP.HTML */
 
 /* FORM PAGE SIGNUP.HTML */
 #signupform {
@@ -617,6 +616,43 @@ input {
     position: relative;
     right: 27.5%;
     bottom: 2%;
+}
+
+/* BUSINESS HOURS LIST */
+
+#h2table {
+    border-top: none;
+    border-left: 10px solid rgba(2, 0, 38);
+    margin-top: 2vh;
+    width: 40vw;
+    margin-left: 20vw;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    color: rgb(243, 240, 209);
+    background-color: rgba(2, 0, 38);
+    position: absolute;
+    left: 35%;
+    bottom: -40%;
+
+}
+
+.table {
+    max-width: 100vw;
+    font-size: 25px;
+    text-align:center;
+    width: 40vw;
+    margin-left: 10vw;
+    margin-top: 1vh;
+    border-bottom: none;
+    border-right: 10px solid rgba(2, 0, 38);
+    background-color: rgba(2, 0, 38);
+    color: rgb(243, 240, 209);
+    position: absolute;
+    left: 45%;
+    bottom: -60%;
+    
+   
 }
 
        

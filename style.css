@@ -397,6 +397,8 @@ input {
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 
+    /* NAV BAR */
+
     nav {
         display: flex !important;
         position: relative;
@@ -421,7 +423,17 @@ input {
     .nav-toggle-label {
         display: none;
     }
+
+    .signupnavbar {
+        background-color: orange;
+        padding: 15px;
+        border-radius: 10%;
+    }
   
+/* OPEN ACCOUNT BAR*/
+    #signupsection { /*Configuracao do container OPEN ACCOUNT*/
+        display: none;
+    }
    
 }
 

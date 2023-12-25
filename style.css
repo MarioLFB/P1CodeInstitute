@@ -371,7 +371,7 @@ input {
 }
 
 
-/* FORM PAGE SIGNUP.HTML */
+/*----------------- FORM PAGE SIGNUP.HTML -----------------------------------------------------------------------------------------------------------------------------------*/
 #signupform {
     position: relative;
     left: 30px;
@@ -392,7 +392,7 @@ input {
 }
 
 
-/* CONFIGURACOES DE MEDIA QUERY */
+/* ----------------------------CONFIGURACOES DE MEDIA QUERY ---------------------------------------------------------------------------------------------------------------*/
 
 
 
@@ -651,9 +651,45 @@ input {
     position: absolute;
     left: 45%;
     bottom: -60%;
-    
-   
 }
+
+/* FOOTER*/
+
+.footer {
+    background-color:  rgba(2, 0, 38);
+    width: 100vw;
+    height: 12vh;
+    margin-top: 4vh; 
+}
+
+.footer h2 {
+    color: rgb(243, 240, 209);
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 12px;
+}
+
+.footer ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.footer a {
+    color:rgb(243, 240, 209);
+    
+}
+
+.footer ul li {
+    color: rgb(243, 240, 209);
+    width: 5vw;
+    margin-left: 21vw;
+    margin-top: 0vh;
+    font-size: 30px;
+}
+
 
        
     

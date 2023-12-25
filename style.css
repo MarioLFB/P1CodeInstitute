@@ -396,6 +396,17 @@ input {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
+
+    nav {
+        display: flex !important;
+        position: relative;
+        background-color: rgba(2, 0, 38);
+        width: auto;
+        padding: 0;
+        top: 0;
+    }
+
+  
    
 }
 

@@ -4,14 +4,14 @@
 
 
 
-* {   /*configuracao inicial padrao*/
+* {   /*DEFAULT INITIAL SETTING*/
     padding: 0;
     margin: 0;
     box-sizing: border-box;
    
 }
 
-html, body { /*configuracao inicial padrao do BODY*/
+html, body { /*DEFAULT INITIAL SETTING BODY HTML*/
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@ html, body { /*configuracao inicial padrao do BODY*/
     
 }
 
-header { /*cor de fundo do NAV e flex para alinhar a logo e os links de navegacao dentro do container*/
+header { /*NAV background color, flex to align the logo and navigation links in the container*/
     background-color: rgba(2, 0, 38);
     padding: 0 1rem;
     position: fixed;
@@ -56,7 +56,7 @@ header a {
 
 /*HEADER*/
 
-#menu { /*Customizacao do Menu HOME SIGNUP Contact*/
+#menu { /*MENU HOME SIGNUP CONTACT: TEXT*/
     font-size: 100%;
     letter-spacing: 1px;
     list-style-type: none;
@@ -65,15 +65,15 @@ header a {
     color: rgb(243, 240, 209);
 }
 
-#menu > li { /*configuracao da margem bottom da lista */
+#menu > li { /*MARGIN LIST*/
     margin-bottom: 1em;
 }
 
-.active { /*configuracao somente do HOME criando linha na borda BOTTOM*/
+.active { /*HOME UNDERLINE*/
     border-bottom: 1px solid #ffffff;
 }
 
-nav { /*configura a barra que abre quando clicado o hamburguer*/
+nav { /*MENU HAMBURGUER*/
     position: absolute;
     background-color: rgba(2, 0, 38);
     width: 100vw;
@@ -92,7 +92,7 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
     display: none;
 }
 
-.nav-toggle-label { /*configuracao do botao do menu*/
+.nav-toggle-label { /*menu button config*/
     font-size: 1.5rem;
     color: white;
     margin-right: 1vw;
@@ -102,7 +102,7 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 /*MAIN*/
 
 
-.mainsection { /*Enrola toda as sections em uma so*/
+.mainsection { 
     display: flex;
     flex-direction: column;
     margin-top: 11vh;
@@ -111,9 +111,9 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 
 }
 
-/*BARRA AMARELA DE OPEN ACCOUNT*/
+/*OPEN ACCOUNT YELLOW BAR*/
 
-#signupsection { /*Configuracao do container OPEN ACCOUNT*/
+#signupsection { /*OPEN ACCOUNT CONTAINER*/
     background: linear-gradient(to bottom, #FFA500, #FFD700);
     width: 100vw;
     height: 10vh;
@@ -125,7 +125,7 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 
 }
 
-#signup { /*Configuracao do texto do OPEN ACCOUNT*/
+#signup { /*OPEN ACCOUNT TEXT*/
     color:  rgba(2, 0, 38);
     font-size: 15px;
     font-family: 'Bungee', sans-serif;
@@ -133,7 +133,7 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
     text-align: center;
 }
 
-#cardicon { /*Configuracao do ICONE DO CARTAO*/
+#cardicon { /*CARD ICON*/
     margin-left: 5vw;
     color: inherit;
 }
@@ -141,7 +141,7 @@ nav { /*configura a barra que abre quando clicado o hamburguer*/
 
 
 
-/*AQUI COMECA O SECTION 1 */
+/*SECTION 1 */
 
 .section1wrap {
     display: flex;
@@ -183,7 +183,7 @@ text-align: center;
 }
 
 
-/*IMAGEM CEO ENTRE A SECTION 1 E SECIOTN 2 CASHBACK*/
+/*CEO IMAGE BETWEEN SECTIONS 1 AND 2*/
 
 .ceosection {
     display: flex;
@@ -211,7 +211,7 @@ text-align: center;
   }
 
  
-/*AQUI COMECA O SECTION 2 */
+/*SECTION 2 STARTS HERE */
 
 .section2 {
     display: flex;
@@ -244,7 +244,7 @@ text-align: center;
    
 }
 
-/*tabela de horarios*/
+/*BUSINESS HOURS LIST*/
 
 #h2table {
     border-top: 10px solid rgb(243, 240, 209, 0.6);
@@ -268,7 +268,7 @@ text-align: center;
    
 }
 
-/*aqui comeca o formulario*/
+/*FORM STARTS HERE*/
 
 .contact {
     background-color: rgb(243, 240, 209, 0.7);
@@ -384,7 +384,7 @@ input {
 }
 
 
-/* ----------------------------CONFIGURACOES DE MEDIA QUERY ---------------------------------------------------------------------------------------------------------------*/
+/* ---------------------------- MEDIA QUERY ---------------------------------------------------------------------------------------------------------------*/
 
 
 
@@ -438,7 +438,7 @@ input {
     }
   
 /* OPEN ACCOUNT BAR*/
-    #signupsection { /*Configuracao do container OPEN ACCOUNT*/
+    #signupsection { /*Container config. OPEN ACCOUNT*/
         display: none;
     }
    
@@ -679,19 +679,7 @@ input {
     margin-top: 0vh;
     font-size: 30px;
 }
-
-
-       
+   
     
 }
 
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-  
-}
-
-
-
-@media screen and (min-width: 1200px) {    
-    
-}

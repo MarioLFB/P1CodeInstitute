@@ -118,7 +118,7 @@ nav { /*MENU HAMBURGUER*/
     height: 10vh;
     margin-top: 2vh;
     display: flex;
-    flex: row;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 
@@ -246,27 +246,50 @@ text-align: center;
 /*BUSINESS HOURS LIST*/
 
 #h2table {
-    margin-top: 2vh;
-    width: 60vw;
-    margin-left: 20vw;
+    width: 100vw;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    font-size: 24px;
+    font-size: 25px;
     color: rgba(2, 0, 38);
+    background-color: rgb(243, 240, 209);
+    padding: 10px;
 }
 
 .table {
     max-width: 100vw;
-    font-size: 14px;
+    font-size: 15px;
     color: rgba(2, 0, 38);
     text-align: center;
-    width: 80vw;
-    margin-left: 10vw;
-    margin-top: 0.5vh; 
-    margin-bottom: 1vh;
+    width: 100vw;
+    background-color: rgb(243, 240, 209);
+    padding: 10px;
 }
 
-/*FORM STARTS HERE*/
+/*MAP*/
+.map {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+    height: 24vh;
+    background-color: rgba(2, 0, 38);
+}
+
+.map h3 {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(243, 240, 209);
+}
+
+.map figcaption {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(243, 240, 209);
+}
+
+
+/*FORM STARTS HERE GET IN TOUCH*/
 
 .contact {
     display: flex;
@@ -515,7 +538,6 @@ input {
             border-top:  15px solid rgb(243, 240, 209);
             border-bottom:  15px solid rgb(243, 240, 209);
             border-radius: 50%;
-            margin-bottom: none;
             position: relative;
             top: 5vh;
           }
@@ -646,7 +668,7 @@ input {
     background-color: rgba(2, 0, 38);
     color: rgb(243, 240, 209);
     margin: 2vh 5vw;
-    
+}   
 
 /* FOOTER*/
 
@@ -684,6 +706,4 @@ input {
     margin-top: 0vh;
     font-size: 30px;
 }
-   
-    
 }

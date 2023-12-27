@@ -713,8 +713,8 @@ input {
 .footer {
     background-color:  rgba(2, 0, 38);
     width: 100vw;
-    height: 12vh;
-    margin-top: 4vh; 
+    height: 24vh;
+    margin-top: 2vh; 
 }
 
 .footer h2 {
@@ -722,14 +722,16 @@ input {
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
     text-align: center;
-    position: relative;
-    top: 12px;
+    margin-bottom: 1vh;
 }
 
 .footer ul {
     display: flex;
+    justify-content: center;
+    flex-direction: row;
     list-style-type: none;
-    margin-top: 25px;
+    width: 80vw;
+
 }
 
 .footer a {
@@ -739,9 +741,14 @@ input {
 
 .footer ul li {
     color: rgb(243, 240, 209);
-    width: 5vw;
-    margin-left: 21vw;
-    margin-top: 0vh;
+    align-items: center;
     font-size: 30px;
+}
+
+.footer p {
+    color: rgb(243, 240, 209);
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
 }
 }

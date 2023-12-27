@@ -491,18 +491,18 @@ input {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
-    color: rgba(2, 0, 38);
-    background-color: white;
+    color: rgb(243, 240, 209);
+    background-color: rgba(2, 0, 38);
     padding: 10px;
 }
 
 .table {
     max-width: 100vw;
     font-size: 20px;
-    color: rgba(2, 0, 38);
+    color: rgb(243, 240, 209);
     text-align: center;
     width: 100vw;
-    background-color: white;
+    background-color: rgba(2, 0, 38);
     padding: 10px;
 }
    
@@ -617,7 +617,7 @@ input {
     flex-direction: column;
     align-items: center;
     background-color: rgb(243, 240, 209, 0.7);
-    width: 45vw;
+    width: 50vw;
     height: 40vh;
     margin: 3vh 5vw;
 }
@@ -651,7 +651,7 @@ label {
 }
 
 input {
-    width: 40vw;
+    width: 30vw;
     height: 30px;
     margin-bottom: 2vh;
     border: 1px solid rgba(2, 0, 38, 0.2);
@@ -667,7 +667,7 @@ input {
     font-family: 'Lilita one', sans-serif;
     width: 15vw;
     height: 3vh;
-    margin-left: 15vw;
+    margin-left: 10vw;
 }
 
 /* BUSINESS HOURS LIST */
@@ -702,8 +702,8 @@ input {
 
 .px768 {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
 }
 
 

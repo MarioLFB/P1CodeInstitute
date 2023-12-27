@@ -406,23 +406,40 @@ input {
 
 
 /*----------------- FORM PAGE SIGNUP.HTML -----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*FORM*/
 #signupform {
-    position: relative;
-    left: 30px;
-    top: 20px;
-    
+    width: 100vw;
 }
 
+#signupform legend {
+    font-size: 16px;
+}
+
+#signupform label {
+    font-size: 18px;
+}
+
+#signupform form input[type="submit"] {
+    font-size: 15px;
+    width: 30vw;
+    border-radius: 10%;
+}
+
+/*NEBULA LOGO*/
 #nebulabankimage {
     max-width: 100vw;
     width: 80vw;
     margin-left: 10vw;
-    margin-top: 10vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     border-radius: 10%;
 }
 
 .bodyb {
     background-color: rgb(243, 240, 209);
+    
+
 }
 
 
@@ -505,6 +522,47 @@ input {
     background-color: rgba(2, 0, 38);
     padding: 10px;
 }
+
+/*---------------------------FORM PAGE SIGNUP.HTML 576px-----------------------------------------------------*/
+/*FORM*/
+#signupform {
+    width: 40vw;
+}
+
+#signupform legend {
+    font-size: 15px;
+}
+
+#signupform input {
+    width: 40vw;
+}
+
+#signupform label {
+    font-size: 10px;
+}
+
+#signupform form input[type="submit"] {
+    font-size: 15px;
+    width: 30vw;
+    border-radius: 10%;
+}
+
+/*NEBULA LOGO*/
+#nebulabankimage {
+    max-width: 100vw;
+    width: 20vw;
+    margin-left: 10vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border-radius: 10%;
+}
+
+.signup576px {
+    display: flex;
+    flex-direction: row;
+}
+
+
    
 }
 
@@ -705,8 +763,6 @@ input {
     flex-direction: row;
     align-items: center;
 }
-
-
 
 /* FOOTER*/
 

@@ -550,27 +550,32 @@ input {
 
 /*NEBULA LOGO*/
 #nebulabankimage {
-    max-width: 30vw;
-    max-height: 40vh;
-    width: 30vw;
-    border-radius: 10%;
+    max-width: 50%;
+    border-radius: 50%;
+    margin-top: 9%;
+    margin-right: 5%;
     
 }
 
 .signup576px {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 90vw;
-    height: 60vh;
+    max-width: 100%;
 }
 
+/* FOOTER*/
 
-   
+.footer {
+    background-color:  rgba(2, 0, 38);
+    width: 100vw;
+    height: 25vh;
 }
 
-/* Media query: tablets and larger (768px and up) */
+}
+
+/* Media query: tablets and larger ---------------------------------------------------------(768px and up)----------------------------------------- */
 @media screen and (min-width: 768px) {
 
 /* MAIN */
@@ -774,7 +779,6 @@ input {
     background-color:  rgba(2, 0, 38);
     width: 100vw;
     height: 24vh;
-    margin-top: 2vh; 
 }
 
 .footer h2 {

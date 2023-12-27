@@ -853,5 +853,18 @@ input {
     .footer {
         height: 35vh;
     }
+
+    #nebulabankimage {
+        margin-top: 20vh;
+    }
+
+    #signupform form input[type="submit"] {
+        font-size: 15px;
+    }
+
+    #signupform {
+        width: 100vw;
+        margin-top: 12vh;
+    }
     
 }

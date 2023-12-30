@@ -71,24 +71,24 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
     2. Home (internal anchor link to the homepage)
     3. Contact (internal anchor link to the designated area within the Home)
     4. Signup (Link to the Signup page)
-![Logo and navbar](docs/nebulabanknavbar.png)
+<h2 align="center"><img src="docs/features/nebulabanknavbar.png"></h2>
 
 -   ### Landing Page (Product Advantages and Benefits, CEO's Message, and Additional Benefit Messages to Capture Clients):
     -   Section 1
 
     1. Introduction about the Bank's Benefits
     2. CEO's Message to Users
-![Logo and navbar](docs/nebulalp1.png)
+<h2 align="center"><img src="docs/features/nebulalp1.png"></h2>
 
     -   Section 2
     1. Message to promote the bank app
     2. Message regarding financial investment
-![Logo and navbar](docs/nebulalp2.png)
+<h2 align="center"><img src="docs/features/nebulalp2.png"></h2>
 
 - ### Contact area (Get in touch with us, Business Hours, and Company Location):
     -   Get in touch with us: form provides the user with the experience of reaching out to the company.
-    ![Logo and navbar](docs/getintouchwithus.png)
+<h2 align="center"><img src="docs/features/getintouchwithus.png"></h2>
 
     -   Business Hours: Utilizing list formatting, provide the user with the company's operating hours. 
-    ![Logo and navbar](docs/businesshours.png)
+<h2 align="center"><img src="docs/features/businesshours.png"></h2>
 

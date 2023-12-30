@@ -101,5 +101,9 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
   - ### Sign Up Page: The page provides the user with the form to request the product on the left side. On the right side, there is a complementary logo for the project.
 <h2 align="center"><img src="docs/features/signuppage.png"></h2>
 
+### Future updates area
+
+- Section reserved for future updates.
+
 
 

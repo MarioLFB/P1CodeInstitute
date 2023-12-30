@@ -87,15 +87,19 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
 
 - ### Contact Area (Get in Touch with Us, Business Hours, and Company Location):
   - #### Get in Touch with Us: The form provides the user with the experience of reaching out to the company.
-  <h2 align="center"><img src="docs/features/getintouchwithus.png"></h2>
+<h2 align="center"><img src="docs/features/getintouchwithus.png"></h2>
 
   - #### Business Hours: Utilizing list formatting, provide the user with the company's operating hours.
-  <h2 align="center"><img src="docs/features/businesshours.png"></h2>
+<h2 align="center"><img src="docs/features/businesshours.png"></h2>
 
   - #### Company Location (Map): The map provides the user with accurate visual information about the company's location, instilling credibility with the customer.
-  <h2 align="center"><img src="docs/features/nebulamap.png"></h2>
+<h2 align="center"><img src="docs/features/nebulamap.png"></h2>
 
-  - #### The footer: Brings institutional information about the company, as well as functional external links redirecting to the external pages of the social media platforms.
+  - ### The footer: Brings institutional information about the company, as well as functional external links redirecting to the external pages of the social media platforms.
 <h2 align="center"><img src="docs/features/footer.png"></h2>
+
+  - ### Sign Up Page: The page provides the user with the form to request the product on the left side. On the right side, there is a complementary logo for the project.
+<h2 align="center"><img src="docs/features/signuppage.png"></h2>
+
 
 

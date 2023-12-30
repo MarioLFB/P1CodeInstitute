@@ -37,3 +37,29 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
         -   The main font used is Raleway, and in some instances, the Bungee font is employed for additional stylization in the project. In case of any issues, the fallback font is a sans-serif.
     -   #### Imagery
         -   The main image on the home page features the CEO of the company, aiming to instill credibility in the product and brand. On the SignUp page, an alternative image of the project's logo is used to provide a visually appealing aspect for the user.
+
+-   ### Wireframes
+
+    -   Home Page Wireframe - [View](https://github.com/)
+    -   Sign Up Page Wireframe - [View](https://github.com/)
+    -   Mobile Wireframe - [View](https://github.com/)
+
+
+-   ### Technologies Used
+
+    -   Google Fonts:[Link](https://fonts.google.com/)
+    -   Font Awesome:[Link](https://fontawesome.com/)
+    -   Ideogram:[Link](https://ideogram.ai/)
+    -   GitHub:[Link](https://github.com/)
+    -   Balsamiq:[Link](https://balsamiq.com/)
+    -   Favicon:[Link](https://Favicon.io/)
+
+-   ### Structure
+-   The website comprises 2 internal pages (Home and Signup) and an internal anchor link to the Contact section.
+
+    1. Menu Bar: Structured with the Logo and 3 links (Home, Contact, and Signup).
+    2. Home: Contains sections with relevant information, including the company's advantages.
+    3. Contact: Direct anchor link to the specific area at the end of the Homepage, featuring operating hours, a contact form, and a map with location and address details.
+    4. Footer: Provides institutional information and external links to the institution's social media.
+    5. Signup Page: Grants users access to an exclusive page containing a form to request the product.
+    6. Images: On the Homepage, there's an image of the CEO along with a message to the customer. On the Signup page, there's a logo design for the brand.

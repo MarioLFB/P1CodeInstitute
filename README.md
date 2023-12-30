@@ -4,5 +4,5 @@
 
 Introducing Nebulabank, an online financial institution focused on efficiency and innovation. Our goal is to provide accessible, secure, and convenient banking services. Our aim is to simplify the banking experience to meet modern demands.
 
-<h2 align="center"><img src="https://ibb.co/p0Dr3Pp"></h2>
+<h2 align="center"><img src="https://i.ibb.co/M2T5RhL/nebulabank.png"></h2>
 #

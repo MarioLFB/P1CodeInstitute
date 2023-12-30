@@ -84,3 +84,11 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
     1. Message to promote the bank app
     2. Message regarding financial investment
 ![Logo and navbar](docs/nebulalp2.png)
+
+- ### Contact area (Get in touch with us, Business Hours, and Company Location):
+    -   Get in touch with us: form provides the user with the experience of reaching out to the company.
+    ![Logo and navbar](docs/getintouchwithus.png)
+
+    -   Business Hours: Utilizing list formatting, provide the user with the company's operating hours. 
+    ![Logo and navbar](docs/businesshours.png)
+

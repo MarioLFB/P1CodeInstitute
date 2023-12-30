@@ -54,7 +54,7 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
         5. Balsamiq:[Link](https://balsamiq.com/)
         6. Favicon:[Link](https://Favicon.io/)
 
--   ### Structure
+-   ## Structure
     -   The website comprises 2 internal pages (Home and Signup) and an internal anchor link to the Contact section.
 
     1. Menu Bar: Structured with the Logo and 3 links (Home, Contact, and Signup).
@@ -66,9 +66,21 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
 
 -   ### Navigation Bar (Logo, Home, Contact, and Signup):
     -   The entire navigation bar is fully responsive.
-    
+
     1. Logo (internal anchor link to the homepage)
     2. Home (internal anchor link to the homepage)
     3. Contact (internal anchor link to the designated area within the Home)
     4. Signup (Link to the Signup page)
 ![Logo and navbar](docs/nebulabanknavbar.png)
+
+-   ### Landing Page (Product Advantages and Benefits, CEO's Message, and Additional Benefit Messages to Capture Clients):
+    -   Section 1
+
+    1. Introduction about the Bank's Benefits
+    2. CEO's Message to Users
+![Logo and navbar](docs/nebulalp1.png)
+
+    -   Section 2
+    1. Message to promote the bank app
+    2. Message regarding financial investment
+![Logo and navbar](docs/nebulalp2.png)

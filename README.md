@@ -38,24 +38,24 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
     -   #### Imagery
         -   The main image on the home page features the CEO of the company, aiming to instill credibility in the product and brand. On the SignUp page, an alternative image of the project's logo is used to provide a visually appealing aspect for the user.
 
--   ### Wireframes
+    -   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
-    -   Sign Up Page Wireframe - [View](https://github.com/)
-    -   Mobile Wireframe - [View](https://github.com/)
+        1. Home Page Wireframe - [View](https://github.com/)
+        2. Sign Up Page Wireframe - [View](https://github.com/)
+        3. Mobile Wireframe - [View](https://github.com/)
 
 
--   ### Technologies Used
+    -   ### Technologies Used
 
-    -   Google Fonts:[Link](https://fonts.google.com/)
-    -   Font Awesome:[Link](https://fontawesome.com/)
-    -   Ideogram:[Link](https://ideogram.ai/)
-    -   GitHub:[Link](https://github.com/)
-    -   Balsamiq:[Link](https://balsamiq.com/)
-    -   Favicon:[Link](https://Favicon.io/)
+        1. Google Fonts:[Link](https://fonts.google.com/)
+        2. Font Awesome:[Link](https://fontawesome.com/)
+        3. Ideogram:[Link](https://ideogram.ai/)
+        4. GitHub:[Link](https://github.com/)
+        5. Balsamiq:[Link](https://balsamiq.com/)
+        6. Favicon:[Link](https://Favicon.io/)
 
 -   ### Structure
--   The website comprises 2 internal pages (Home and Signup) and an internal anchor link to the Contact section.
+    -   The website comprises 2 internal pages (Home and Signup) and an internal anchor link to the Contact section.
 
     1. Menu Bar: Structured with the Logo and 3 links (Home, Contact, and Signup).
     2. Home: Contains sections with relevant information, including the company's advantages.
@@ -63,3 +63,12 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
     4. Footer: Provides institutional information and external links to the institution's social media.
     5. Signup Page: Grants users access to an exclusive page containing a form to request the product.
     6. Images: On the Homepage, there's an image of the CEO along with a message to the customer. On the Signup page, there's a logo design for the brand.
+
+-   ### Navigation Bar (Logo, Home, Contact, and Signup):
+    -   The entire navigation bar is fully responsive.
+    
+    1. Logo (internal anchor link to the homepage)
+    2. Home (internal anchor link to the homepage)
+    3. Contact (internal anchor link to the designated area within the Home)
+    4. Signup (Link to the Signup page)
+![Logo and navbar](docs/nebulabanknavbar.png)

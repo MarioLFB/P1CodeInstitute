@@ -28,3 +28,12 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
         1. Access updated information on investment opportunities and enhancements for managing the bank account.
         2. As a user of a financial institution, the primary aim is to establish more direct and prompt means of communication.
         3. Receive timely information about news and updates related to the financial market.
+
+-   ### Design
+
+    -   #### Colour Scheme
+        -   The primary colors used in the project are Dark Navy Blue and Pale Yellow.
+    -   #### Typography
+        -   The main font used is Raleway, and in some instances, the Bungee font is employed for additional stylization in the project. In case of any issues, the fallback font is a sans-serif.
+    -   #### Imagery
+        -   The main image on the home page features the CEO of the company, aiming to instill credibility in the product and brand. On the SignUp page, an alternative image of the project's logo is used to provide a visually appealing aspect for the user.

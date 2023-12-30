@@ -92,3 +92,7 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
     -   Business Hours: Utilizing list formatting, provide the user with the company's operating hours. 
 <h2 align="center"><img src="docs/features/businesshours.png"></h2>
 
+    -   Company Location (map): The map provides the user with accurate visual information about the company's location, instilling credibility with the customer.
+<h2 align="center"><img src="docs/features/nebulamap.png"></h2>
+
+

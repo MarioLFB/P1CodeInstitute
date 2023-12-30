@@ -54,8 +54,9 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
         5. Balsamiq:[Link](https://balsamiq.com/)
         6. Favicon:[Link](https://Favicon.io/)
 
--   ## Structure
-    -   The website comprises 2 internal pages (Home and Signup) and an internal anchor link to the Contact section.
+## Structure
+
+-   The website comprises 2 internal pages (Home and Signup) and an internal anchor link to the Contact section.
 
     1. Menu Bar: Structured with the Logo and 3 links (Home, Contact, and Signup).
     2. Home: Contains sections with relevant information, including the company's advantages.
@@ -64,8 +65,9 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
     5. Signup Page: Grants users access to an exclusive page containing a form to request the product.
     6. Images: On the Homepage, there's an image of the CEO along with a message to the customer. On the Signup page, there's a logo design for the brand.
 
--   ### Navigation Bar (Logo, Home, Contact, and Signup):
-    -   The entire navigation bar is fully responsive.
+### Navigation Bar (Logo, Home, Contact, and Signup):
+
+-   The entire navigation bar is fully responsive.
 
     1. Logo (internal anchor link to the homepage)
     2. Home (internal anchor link to the homepage)
@@ -73,19 +75,21 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
     4. Signup (Link to the Signup page)
 <h2 align="center"><img src="docs/features/nebulabanknavbar.png"></h2>
 
--   ### Landing Page (Product Advantages and Benefits, CEO's Message, and Additional Benefit Messages to Capture Clients):
-    -   Section 1
+### Landing Page (Product Advantages and Benefits, CEO's Message, and Additional Benefit Messages to Capture Clients):
 
-    1. Introduction about the Bank's Benefits
-    2. CEO's Message to Users
+#### Section 1
+
+1. Introduction about the Bank's Benefits
+2. CEO's Message to Users
 <h2 align="center"><img src="docs/features/nebulalp1.png"></h2>
 
-    -   Section 2
-    1. Message to promote the bank app
-    2. Message regarding financial investment
+#### Section 2
+
+1. Message to promote the bank app
+2. Message regarding financial investment
 <h2 align="center"><img src="docs/features/nebulalp2.png"></h2>
 
-- ### Contact Area (Get in Touch with Us, Business Hours, and Company Location):
+### Contact Area (Get in Touch with Us, Business Hours, and Company Location):
   - #### Get in Touch with Us: The form provides the user with the experience of reaching out to the company.
 <h2 align="center"><img src="docs/features/getintouchwithus.png"></h2>
 
@@ -95,10 +99,10 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
   - #### Company Location (Map): The map provides the user with accurate visual information about the company's location, instilling credibility with the customer.
 <h2 align="center"><img src="docs/features/nebulamap.png"></h2>
 
-  - ### The footer: Brings institutional information about the company, as well as functional external links redirecting to the external pages of the social media platforms.
+### The footer: Brings institutional information about the company, as well as functional external links redirecting to the external pages of the social media platforms.
 <h2 align="center"><img src="docs/features/footer.png"></h2>
 
-  - ### Sign Up Page: The page provides the user with the form to request the product on the left side. On the right side, there is a complementary logo for the project.
+### Sign Up Page: The page provides the user with the form to request the product on the left side. On the right side, there is a complementary logo for the project.
 <h2 align="center"><img src="docs/features/signuppage.png"></h2>
 
 ### Future updates area

@@ -85,14 +85,17 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
     2. Message regarding financial investment
 <h2 align="center"><img src="docs/features/nebulalp2.png"></h2>
 
-- ### Contact area (Get in touch with us, Business Hours, and Company Location):
-    -   Get in touch with us: form provides the user with the experience of reaching out to the company.
-<h2 align="center"><img src="docs/features/getintouchwithus.png"></h2>
+- ### Contact Area (Get in Touch with Us, Business Hours, and Company Location):
+  - #### Get in Touch with Us: The form provides the user with the experience of reaching out to the company.
+  <h2 align="center"><img src="docs/features/getintouchwithus.png"></h2>
 
-    -   Business Hours: Utilizing list formatting, provide the user with the company's operating hours. 
-<h2 align="center"><img src="docs/features/businesshours.png"></h2>
+  - #### Business Hours: Utilizing list formatting, provide the user with the company's operating hours.
+  <h2 align="center"><img src="docs/features/businesshours.png"></h2>
 
-    -   Company Location (map): The map provides the user with accurate visual information about the company's location, instilling credibility with the customer.
-<h2 align="center"><img src="docs/features/nebulamap.png"></h2>
+  - #### Company Location (Map): The map provides the user with accurate visual information about the company's location, instilling credibility with the customer.
+  <h2 align="center"><img src="docs/features/nebulamap.png"></h2>
+
+  - #### The footer: Brings institutional information about the company, as well as functional external links redirecting to the external pages of the social media platforms.
+<h2 align="center"><img src="docs/features/footer.png"></h2>
 
 

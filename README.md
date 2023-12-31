@@ -45,10 +45,10 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
 
 #### Wireframes
 
-1. Home Page - [Link](docs\wireframe\homepage.png)
-1.1 Home Page Mobile- [View](https://github.com/)
-2. Sign Up Page - [View](https://github.com/)
-2.1. Sign Up Mobile - [View](https://github.com/)
+1. Home Page - <img src="docs\wireframe\homepage.png">
+1.1 Home Page Mobile - <img src="docs\wireframe\homepagemobile.png">
+2. Sign Up Page - <img src="docs\wireframe\signup.png">
+2.1. Sign Up Mobile - <img src="docs\wireframe\signupmobile.png">
 
 #### Technologies Used
 

@@ -1,518 +1,492 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bungee&family=Cabin:wght@500&family=Lilita+One&family=Orbitron:wght@500&family=Raleway:wght@200&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bungee&family=Cabin:wght@500&family=Lilita+One&family=Orbitron:wght@500&family=Raleway:wght@200&display=swap');
-
-
-
-* {   /*DEFAULT INITIAL SETTING*/
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-   
+* {
+  /*DEFAULT INITIAL SETTING*/
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-html, body { /*DEFAULT INITIAL SETTING BODY HTML*/
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
-    
+html,
+body {
+  /*DEFAULT INITIAL SETTING BODY HTML*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
 }
 
-#header { /*NAV background color, flex to align the logo and navigation links in the container*/
-    background-color: rgba(2, 0, 38);
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    height: 10vh;
+#header {
+  /*NAV background color, flex to align the logo and navigation links in the container*/
+  background-color: rgba(2, 0, 38);
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  height: 10vh;
 }
 
 header a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
+/*LOGO*/
 
- /*LOGO*/
-
-#logo { 
-    text-decoration: none;
-    color: rgb(243, 240, 209);
-    font-size: 30px;
-    letter-spacing: 1px;
-    font-weight: 700;
-    font-family: 'Lilita', sans-serif;
-    margin-left: 1vw;
-    
+#logo {
+  text-decoration: none;
+  color: rgb(243, 240, 209);
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-family: "Lilita", sans-serif;
+  margin-left: 1vw;
 }
-
-
 
 /*HEADER*/
 
-#menu { /*MENU HOME SIGNUP CONTACT: TEXT*/
-    font-size: 100%;
-    letter-spacing: 1px;
-    list-style-type: none;
-    font-family: 'Bungee', sans-serif;
-    margin-left: 2%;
-    color: rgb(243, 240, 209);
+#menu {
+  /*MENU HOME SIGNUP CONTACT: TEXT*/
+  font-size: 100%;
+  letter-spacing: 1px;
+  list-style-type: none;
+  font-family: "Bungee", sans-serif;
+  margin-left: 2%;
+  color: rgb(243, 240, 209);
 }
 
-#menu > li { /*MARGIN LIST*/
-    margin-bottom: 1em;
+#menu > li {
+  /*MARGIN LIST*/
+  margin-bottom: 1em;
 }
 
-.active { /*HOME UNDERLINE*/
-    border-bottom: 1px solid #ffffff;
+.active {
+  /*HOME UNDERLINE*/
+  border-bottom: 1px solid #ffffff;
 }
 
-nav { /*MENU HAMBURGUER*/
-    position: absolute;
-    background-color: rgba(2, 0, 38);
-    width: 100vw;
-    left: 0;
-    padding: 0 1rem;
-    display: none;
-    top: 100%;  
+nav {
+  /*MENU HAMBURGUER*/
+  position: absolute;
+  background-color: rgba(2, 0, 38);
+  width: 100vw;
+  left: 0;
+  padding: 0 1rem;
+  display: none;
+  top: 100%;
 }
 
 /* Nav toggle */
-#nav-toggle:checked~nav {
-    display: block;
+#nav-toggle:checked ~ nav {
+  display: block;
 }
 
 #nav-toggle {
-    display: none;
+  display: none;
 }
 
-.nav-toggle-label { /*menu button config*/
-    font-size: 1.5rem;
-    color: white;
-    margin-right: 1vw;
+.nav-toggle-label {
+  /*menu button config*/
+  font-size: 1.5rem;
+  color: white;
+  margin-right: 1vw;
 }
-
 
 /*MAIN*/
 
-
-.mainsection { 
-    display: flex;
-    flex-direction: column;
-    margin-top: 10vh;
-    align-items: center;
-    align-content: center;
-
+.mainsection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  align-items: center;
+  align-content: center;
 }
 
 /*OPEN ACCOUNT YELLOW BAR*/
 
-#signupsection { /*OPEN ACCOUNT CONTAINER*/
-    background: linear-gradient(to bottom, #FFA500, #FFD700);
-    width: 100vw;
-    height: 10vh;
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+#signupsection {
+  /*OPEN ACCOUNT CONTAINER*/
+  background: linear-gradient(to bottom, #ffa500, #ffd700);
+  width: 100vw;
+  height: 10vh;
 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-#signup { /*OPEN ACCOUNT TEXT*/
-    color:  rgba(2, 0, 38);
-    font-size: 15px;
-    font-family: 'Bungee', sans-serif;
-    text-decoration: none;
-    text-align: center;
+#signup {
+  /*OPEN ACCOUNT TEXT*/
+  color: rgba(2, 0, 38);
+  font-size: 15px;
+  font-family: "Bungee", sans-serif;
+  text-decoration: none;
+  text-align: center;
 }
 
-#cardicon { /*CARD ICON*/
-    margin-left: 5vw;
-    color: inherit;
+#cardicon {
+  /*CARD ICON*/
+  margin-left: 5vw;
+  color: inherit;
 }
-
-
-
 
 /*SECTION 1 */
 
 .section1wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section1 {
-    max-width: 100vw;
-    margin-top: 2vh;
-    border-left: 10px solid rgb(243, 240, 209, 0.7);
-    border-right: 10px solid rgb(243, 240, 209, 0.7);
-    width: 80%;
-    height: 50vh;
+  max-width: 100vw;
+  margin-top: 2vh;
+  border-left: 10px solid rgb(243, 240, 209, 0.7);
+  border-right: 10px solid rgb(243, 240, 209, 0.7);
+  width: 80%;
+  height: 50vh;
 }
 
 #h3section1 {
-font-size: 22px;
-margin-left: 5vw;
-margin-top: 3vh;
-font-family: 'Raleway', sans-serif;
-text-align: center;
-
+  font-size: 22px;
+  margin-left: 5vw;
+  margin-top: 3vh;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
 }
-#h2section1{
-    font-size: 17px;
-    margin-left: 5vw;
-    margin-top: 1vh;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-
+#h2section1 {
+  font-size: 17px;
+  margin-left: 5vw;
+  margin-top: 1vh;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
 }
-.psection1{
-    font-size: 15px;
-    margin-left:15vw;
-    margin-top: 5vh;
-    font-family: 'Raleway', sans-serif;
-
+.psection1 {
+  font-size: 15px;
+  margin-left: 15vw;
+  margin-top: 5vh;
+  font-family: "Raleway", sans-serif;
 }
-
 
 /*CEO IMAGE BETWEEN SECTIONS 1 AND 2*/
 
 .ceosection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80vw;
-    margin-bottom: 20vh;
-    
-  }
-  
-  .ceosection #ceophoto {
-    max-width: 60vw; 
-    border-top:  15px solid rgb(243, 240, 209);
-    border-bottom:  15px solid rgb(243, 240, 209);
-    border-radius: 50%;
-    margin-bottom: 3vh;
-  }
-  
-  .ceosection p {
-    flex-grow: 1; 
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    color: rgba(2, 0, 38);
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  margin-bottom: 20vh;
+}
 
- 
+.ceosection #ceophoto {
+  max-width: 60vw;
+  border-top: 15px solid rgb(243, 240, 209);
+  border-bottom: 15px solid rgb(243, 240, 209);
+  border-radius: 50%;
+  margin-bottom: 3vh;
+}
+
+.ceosection p {
+  flex-grow: 1;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(2, 0, 38);
+}
+
 /*SECTION 2 STARTS HERE */
 
 .section2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: -15vh;
-    width: 100vw;
-    height: 80vh;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -15vh;
+  width: 100vw;
+  height: 80vh;
 }
 
 .subsection2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 90vw;
-    height: 30vh;
-    background-color: rgb(243, 240, 209, 0.4);
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  height: 30vh;
+  background-color: rgb(243, 240, 209, 0.4);
+  padding: 20px;
 }
 
-.subsection2 h2, .subsection2 h3 {
-    color: black;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    
-   
+.subsection2 h2,
+.subsection2 h3 {
+  color: black;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
 }
 
 /*BUSINESS HOURS LIST*/
 
 #h2table {
-    width: 100vw;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 25px;
-    color: rgb(243, 240, 209);
-    background-color: rgba(2, 0, 38);
-    padding: 10px;
-    margin-bottom: -1vh;
+  width: 100vw;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  color: rgb(243, 240, 209);
+  background-color: rgba(2, 0, 38);
+  padding: 10px;
+  margin-bottom: -1vh;
 }
 
 .table {
-    max-width: 100vw;
-    font-size: 15px;
-    color: rgb(243, 240, 209);
-    text-align: center;
-    width: 100vw;
-    background-color: rgba(2, 0, 38);
-    padding: 10px;
+  max-width: 100vw;
+  font-size: 15px;
+  color: rgb(243, 240, 209);
+  text-align: center;
+  width: 100vw;
+  background-color: rgba(2, 0, 38);
+  padding: 10px;
 }
 
 /*MAP*/
 .map {
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-    height: 40vh;
-    width: 100vw;
-    background-color: white
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  width: 100vw;
+  background-color: white;
 }
 
 .map h3 {
-    font-size: 19px;
-    font-family: 'Raleway', sans-serif;
-    color: rgba(2, 0, 38);
+  font-size: 19px;
+  font-family: "Raleway", sans-serif;
+  color: rgba(2, 0, 38);
 }
 
 .map figcaption {
-    font-size: 17px;
-    font-family: 'Raleway', sans-serif;
-    color: rgba(2, 0, 38);
+  font-size: 17px;
+  font-family: "Raleway", sans-serif;
+  color: rgba(2, 0, 38);
 }
 
 .map iframe {
-    width: 80vw;
-    margin-top: 1vh;
+  width: 80vw;
+  margin-top: 1vh;
 }
-
 
 /*FORM STARTS HERE GET IN TOUCH*/
 
 .contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(243, 240, 209, 0.7);
-    max-width: 80vw;
-    width: 100%;
-    height: 35vh;
-    margin: 3vh 10vw;
-    border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(243, 240, 209, 0.7);
+  max-width: 80vw;
+  width: 100%;
+  height: 35vh;
+  margin: 3vh 10vw;
+  border-radius: 3%;
 }
 
 .contact form {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-
 fieldset {
-    border: none;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2vh;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2vh;
 }
 
 legend {
-    text-align: center;
-    font-family: 'Bungee', sans-serif;
-    color: rgba(2, 0, 38);
-    font-size: 13px;
-    
+  text-align: center;
+  font-family: "Bungee", sans-serif;
+  color: rgba(2, 0, 38);
+  font-size: 13px;
 }
 
 label {
-    color: rgba(2, 0, 38);
-    font-family: 'Lilita one', sans-serif;
-    font-size: 12px;
+  color: rgba(2, 0, 38);
+  font-family: "Lilita one", sans-serif;
+  font-size: 12px;
 }
 
 input {
-    width: 70vw;
-    height: 22px;
-    margin-bottom: 2vh;
-    border: 1px solid rgba(2, 0, 38, 0.2);
-    cursor: pointer;
-    border-radius: 4px;
+  width: 70vw;
+  height: 22px;
+  margin-bottom: 2vh;
+  border: 1px solid rgba(2, 0, 38, 0.2);
+  cursor: pointer;
+  border-radius: 4px;
 }
 
 .contact form input[type="submit"] {
-    border: 1px solid rgba(2, 0, 38, 0.2);
-    color: rgba(2, 0, 38);
-    border-radius: 5px;
-    font-size: 12px;
-    font-family: 'Lilita one', sans-serif;
-    width: 15vw;
-    height: 3vh;
-    margin-left: 27vw;
+  border: 1px solid rgba(2, 0, 38, 0.2);
+  color: rgba(2, 0, 38);
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: "Lilita one", sans-serif;
+  width: 15vw;
+  height: 3vh;
+  margin-left: 27vw;
 }
-
 
 /*FOOTER*/
 
 .footer {
-    background-color:  rgba(2, 0, 38);
-    width: 100vw;
-    height: 18vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  background-color: rgba(2, 0, 38);
+  width: 100vw;
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer h2 {
-    color: rgb(243, 240, 209);
-    font-family: 'Raleway', sans-serif;
-    font-size: 14.5px;
-    text-align: center;
-    margin-top: 5vh;
+  color: rgb(243, 240, 209);
+  font-family: "Raleway", sans-serif;
+  font-size: 14.5px;
+  text-align: center;
+  margin-top: 5vh;
 }
 
 .footer p {
-    color: rgb(243, 240, 209);
-    font-family: 'Raleway', sans-serif;
-    font-size: 11px;
-    text-align: center;
+  color: rgb(243, 240, 209);
+  font-family: "Raleway", sans-serif;
+  font-size: 11px;
+  text-align: center;
 }
 
-
 .footer ul {
-    display: flex;
-    list-style-type: none;
-    margin-top: 25px;
+  display: flex;
+  list-style-type: none;
+  margin-top: 25px;
 }
 
 .footer a {
-    color:rgb(243, 240, 209);
-    
+  color: rgb(243, 240, 209);
 }
-
 
 .footer ul li {
-    color: rgb(243, 240, 209);
-    width: 20vw;
-    margin-left: 12.5vw;
-    margin-top: 0vh;
-    font-size: 20px;
+  color: rgb(243, 240, 209);
+  width: 20vw;
+  margin-left: 12.5vw;
+  margin-top: 0vh;
+  font-size: 20px;
 }
-
 
 /*----------------- FORM PAGE SIGNUP.HTML -----------------------------------------------------------------------------------------------------------------------------------*/
 
 /*FORM*/
 #signupform {
-    width: 100vw;
+  width: 100vw;
 }
 
 #signupform legend {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 #signupform label {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 #signupform form input[type="submit"] {
-    font-size: 15px;
-    width: 30vw;
-    border-radius: 10%;
+  font-size: 15px;
+  width: 30vw;
+  border-radius: 10%;
 }
 
 /*NEBULA LOGO*/
 #nebulabankimage {
-    max-width: 100vw;
-    width: 80vw;
-    margin-left: 10vw;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    border-radius: 50%;
+  max-width: 100vw;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  border-radius: 50%;
 }
 
 .bodyb {
-    background-color: rgb(243, 240, 209);
-    
-
+  background-color: rgb(243, 240, 209);
 }
-
 
 /* ---------------------------- MEDIA QUERY ---------------------------------------------------------------------------------------------------------------*/
 
-
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
+  /* NAV BAR */
 
-    /* NAV BAR */
+  nav {
+    display: flex !important;
+    position: relative;
+    background-color: rgba(2, 0, 38);
+    width: auto;
+    padding: 0;
+    top: 0;
+  }
 
-    nav {
-        display: flex !important;
-        position: relative;
-        background-color: rgba(2, 0, 38);
-        width: auto;
-        padding: 0;
-        top: 0;
-    }
+  #menu {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+  }
 
-    #menu {
-        display: flex;
-        margin-left: auto;
-        align-items: center;
-    }
+  #menu > li {
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
 
-    #menu > li {
-        margin-bottom: 0;
-        margin-left: 20px;
-        margin-right: 10px;
-    }
+  .nav-toggle-label {
+    display: none;
+  }
 
-    .nav-toggle-label {
-        display: none;
-    }
+  /* NAV BAR SIGNUP BUTTOM */
 
-    /* NAV BAR SIGNUP BUTTOM */
-    
-    .signupnavbar {
-        background-color: orange;
-        padding: 15px;
-        border-radius: 5%;
-    }
+  .signupnavbar {
+    background-color: orange;
+    padding: 15px;
+    border-radius: 5%;
+  }
 
-    #logo { 
-        text-decoration: none;
-        color: rgb(243, 240, 209);
-        font-size: 40px;
-        letter-spacing: 1px;
-        font-weight: 700;
-        font-family: 'Lilita', sans-serif;
-        margin-left: 1vw;
-        
-    }
-  
-/* OPEN ACCOUNT BAR*/
-    #signupsection { /*Container config. OPEN ACCOUNT*/
-        display: none;
-    }
+  #logo {
+    text-decoration: none;
+    color: rgb(243, 240, 209);
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: "Lilita", sans-serif;
+    margin-left: 1vw;
+  }
 
-    /*BUSINESS HOURS LIST*/
+  /* OPEN ACCOUNT BAR*/
+  #signupsection {
+    /*Container config. OPEN ACCOUNT*/
+    display: none;
+  }
 
-#h2table {
+  /*BUSINESS HOURS LIST*/
+
+  #h2table {
     width: 100vw;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 40px;
     color: rgb(243, 240, 209);
     background-color: rgba(2, 0, 38);
     padding: 10px;
-}
+  }
 
-.table {
+  .table {
     max-width: 100vw;
     font-size: 20px;
     color: rgb(243, 240, 209);
@@ -520,165 +494,159 @@ input {
     width: 100vw;
     background-color: rgba(2, 0, 38);
     padding: 10px;
-}
+  }
 
-/*---------------------------FORM PAGE SIGNUP.HTML 576px-----------------------------------------------------*/
-/*FORM*/
-#signupform {
+  /*---------------------------FORM PAGE SIGNUP.HTML 576px-----------------------------------------------------*/
+  /*FORM*/
+  #signupform {
     width: 100vw;
     margin-left: 5vw;
-}
+  }
 
-#signupform legend {
+  #signupform legend {
     font-size: 14px;
-}
+  }
 
-#signupform input {
+  #signupform input {
     width: 40vw;
-}
+  }
 
-#signupform label {
+  #signupform label {
     font-size: 15px;
-}
+  }
 
-#signupform form input[type="submit"] {
+  #signupform form input[type="submit"] {
     font-size: 15px;
     width: 30vw;
     border-radius: 10%;
-}
+  }
 
-/*NEBULA LOGO*/
-#nebulabankimage {
+  /*NEBULA LOGO*/
+  #nebulabankimage {
     max-width: 50%;
     border-radius: 50%;
     margin-top: 9%;
     margin-right: 5%;
-    
-}
+  }
 
-.signup576px {
+  .signup576px {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     max-width: 100%;
-}
+  }
 
-/* FOOTER*/
+  /* FOOTER*/
 
-.footer {
-    background-color:  rgba(2, 0, 38);
+  .footer {
+    background-color: rgba(2, 0, 38);
     width: 100vw;
     height: 25vh;
-}
-
+  }
 }
 
 /* Media query: tablets and larger ---------------------------------------------------------(768px and up)----------------------------------------- */
 @media screen and (min-width: 768px) {
+  /* MAIN */
+  /* NEBULA ACCOUNT SECTION */
+  .section1wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100vw;
+  }
 
-/* MAIN */
-/* NEBULA ACCOUNT SECTION */
-    .section1wrap {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        max-width: 100vw;
-    }
+  .section1 {
+    max-width: 100vw;
+    margin-top: -15px;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(243, 240, 209, 0.7);
+    width: 50vw;
+    height: 60vh;
+  }
 
-    .section1 {
-        max-width: 100vw;
-        margin-top: -15px;
-        border-left: none;
-        border-right: none;
-        background-color: rgb(243, 240, 209, 0.7);
-        width: 50vw;
-        height: 60vh;
-    }
+  #h3section1 {
+    font-size: 45px;
+    margin-left: 0vw;
+    margin-top: 5vh;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+  }
+  #h2section1 {
+    font-size: 25px;
+    margin-left: 0vw;
+    margin-top: 1vh;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+  }
+  .psection1 {
+    font-size: 20px;
+    margin-left: 10vw;
+    margin-top: 6vh;
+    font-family: "Raleway", sans-serif;
+  }
 
-    #h3section1 {
-        font-size: 45px;
-        margin-left: 0vw;
-        margin-top: 5vh;
-        font-family: 'Raleway', sans-serif;
-        text-align: center;
-        
-        }
-        #h2section1{
-            font-size: 25px;
-            margin-left: 0vw;
-            margin-top: 1vh;
-            font-family: 'Raleway', sans-serif;
-            text-align: center;
-        
-        }
-        .psection1 {
-            font-size: 20px;
-            margin-left:10vw;
-            margin-top: 6vh;
-            font-family: 'Raleway', sans-serif;
-        }
+  /* CEO IMAGE */
 
-        /* CEO IMAGE */
+  .ceosection {
+    max-width: 100vw;
+    width: 50vw;
+  }
 
-        .ceosection {
-            max-width: 100vw;
-            width: 50vw;
-        }
+  .ceosection #ceophoto {
+    max-width: 100vw;
+    border-top: 15px solid rgb(243, 240, 209);
+    border-bottom: 15px solid rgb(243, 240, 209);
+    border-radius: 50%;
+    position: relative;
+    top: 5vh;
+  }
 
-        .ceosection #ceophoto {
-            max-width: 100vw; 
-            border-top:  15px solid rgb(243, 240, 209);
-            border-bottom:  15px solid rgb(243, 240, 209);
-            border-radius: 50%;
-            position: relative;
-            top: 5vh;
-          }
-          
-          .ceosection p {
-            flex-grow: 1; 
-            font-family: 'Raleway', sans-serif;
-            font-size: 16px;
-            font-weight: bold;
-            color: rgba(2, 0, 38);
-            position: relative;
-            top: 5vh;
-          }
+  .ceosection p {
+    flex-grow: 1;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(2, 0, 38);
+    position: relative;
+    top: 5vh;
+  }
 
-          /*  NEBULA APP SECTION2 */ /*  EMPOWERING SECTION2 */
+  /*  NEBULA APP SECTION2 */ /*  EMPOWERING SECTION2 */
 
-          .section2 {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 0vh;
-            border-left: none;
-            border-right: none;
-            width: 100vw;
-            height: 50vh;
-        
-        }
-        
-        .subsection2 {
-            width: 90vw;
-            height: 25vh;
-            background-color: rgba(2, 0, 38);
-            padding: 10px;
-            margin-top: 2vh;
-            
-        }
-        
-        .subsection2 h2, .subsection2 h3 {
-            color: rgb(243, 240, 209);
-            text-align: center;
-            font-family: 'Raleway', sans-serif;
-            font-size: 30px;
-        }
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0vh;
+    border-left: none;
+    border-right: none;
+    width: 100vw;
+    height: 50vh;
+  }
 
-/*  GET IN TOUCH WITH US FORM */
-.contact {
+  .subsection2 {
+    width: 90vw;
+    height: 25vh;
+    background-color: rgba(2, 0, 38);
+    padding: 10px;
+    margin-top: 2vh;
+  }
+
+  .subsection2 h2,
+  .subsection2 h3 {
+    color: rgb(243, 240, 209);
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+  }
+
+  /*  GET IN TOUCH WITH US FORM */
+  .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -686,190 +654,185 @@ input {
     width: 50vw;
     height: 40vh;
     margin: 3vh 5vw;
-}
+  }
 
-form {
+  form {
     border-left: none;
     border-right: none;
     width: 100%;
-}
+  }
 
-fieldset {
+  fieldset {
     border: none;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 2vh;
-}
+  }
 
-legend {
+  legend {
     text-align: center;
-    font-family: 'Bungee', sans-serif;
+    font-family: "Bungee", sans-serif;
     color: rgba(2, 0, 38);
     font-size: 20px;
-}
+  }
 
-label {
+  label {
     color: rgba(2, 0, 38);
-    font-family: 'Lilita one', sans-serif;
+    font-family: "Lilita one", sans-serif;
     font-size: 20px;
     text-align: center;
-}
+  }
 
-input {
+  input {
     width: 30vw;
     height: 30px;
     margin-bottom: 2vh;
     border: 1px solid rgba(2, 0, 38, 0.2);
     cursor: pointer;
     border-radius: 4px;
-}
+  }
 
-.contact form input[type="submit"] {
+  .contact form input[type="submit"] {
     border: 1px solid rgba(2, 0, 38, 0.2);
     color: rgba(2, 0, 38);
     border-radius: 5px;
     font-size: 12px;
-    font-family: 'Lilita one', sans-serif;
+    font-family: "Lilita one", sans-serif;
     width: 15vw;
     height: 3vh;
     margin-left: 10vw;
-}
+  }
 
-/* BUSINESS HOURS LIST */
+  /* BUSINESS HOURS LIST */
 
-#h2table {
+  #h2table {
     border-top: none;
     border-left: 10px solid rgba(2, 0, 38);
     margin-top: 2vh;
     width: 45vw;
     margin: 2vh 5vw;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 35px;
     color: rgb(243, 240, 209);
     background-color: rgba(2, 0, 38);
-    
-}
+  }
 
-.table {
+  .table {
     max-width: 100vw;
     font-size: 23px;
-    text-align:center;
+    text-align: center;
     width: 45vw;
     border-bottom: none;
     border-right: 10px solid rgba(2, 0, 38);
     background-color: rgba(2, 0, 38);
     color: rgb(243, 240, 209);
     margin: 2vh 5vw;
-}   
+  }
 
-/* MAP*/
+  /* MAP*/
 
-.px768 {
+  .px768 {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+  }
 
-/* FOOTER*/
+  /* FOOTER*/
 
-.footer {
-    background-color:  rgba(2, 0, 38);
+  .footer {
+    background-color: rgba(2, 0, 38);
     width: 100vw;
     height: 24vh;
-}
+  }
 
-.footer h2 {
+  .footer h2 {
     color: rgb(243, 240, 209);
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 25px;
     text-align: center;
     margin-bottom: 1vh;
-}
+  }
 
-.footer ul {
+  .footer ul {
     display: flex;
     justify-content: center;
     flex-direction: row;
     list-style-type: none;
     width: 80vw;
+  }
 
-}
+  .footer a {
+    color: rgb(243, 240, 209);
+  }
 
-.footer a {
-    color:rgb(243, 240, 209);
-    
-}
-
-.footer ul li {
+  .footer ul li {
     color: rgb(243, 240, 209);
     align-items: center;
     font-size: 30px;
-}
+  }
 
-.footer p {
+  .footer p {
     color: rgb(243, 240, 209);
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 20px;
     text-align: center;
-}
+  }
 }
 
 /* Media query: ------------------------LANDSCAPE----------------------------------------- */
-    @media screen and (max-width: 1200px) and (orientation: landscape) {
-        #header { /*NAV background color, flex to align the logo and navigation links in the container*/
-            height: 20vh;
-        }
-    
-        .section1 {
-            max-width: 100vw;
-            border-left: none;
-            border-right: none;
-            width: 60vw;
-            height: 65vh;
-        }
-    
-        .ceosection {
-            width: 50vw;
-            margin-top: 8vh;
-          }
-    
-          .map {
-            margin-top: 10vh;
-            height: 65vh;
-            width: 100vw;
-        }
-    
-        .contact {
-            max-width: 80vw;
-            width: 100%;
-            height: 65vh;
-            margin: 2vh 5vw;
-        }
-    
-        .contact form input[type="submit"] {
-            font-size: 14px;
-            height: 5vh;
-           
-        }
-    
-        .footer {
-            height: 35vh;
-        }
-    
-        #nebulabankimage {
-            margin-top: 20vh;
-        }
-    
-        #signupform form input[type="submit"] {
-            font-size: 15px;
-        }
-    
-        #signupform {
-            width: 100vw;
-            margin-top: 12vh;
-        }
-        
-    }
-    
+@media screen and (max-width: 1200px) and (orientation: landscape) {
+  #header {
+    /*NAV background color, flex to align the logo and navigation links in the container*/
+    height: 20vh;
+  }
+
+  .section1 {
+    max-width: 100vw;
+    border-left: none;
+    border-right: none;
+    width: 60vw;
+    height: 65vh;
+  }
+
+  .ceosection {
+    width: 50vw;
+    margin-top: 8vh;
+  }
+
+  .map {
+    margin-top: 10vh;
+    height: 65vh;
+    width: 100vw;
+  }
+
+  .contact {
+    max-width: 80vw;
+    width: 100%;
+    height: 65vh;
+    margin: 2vh 5vw;
+  }
+
+  .contact form input[type="submit"] {
+    font-size: 14px;
+    height: 5vh;
+  }
+
+  .footer {
+    height: 35vh;
+  }
+
+  #nebulabankimage {
+    margin-top: 20vh;
+  }
+
+  #signupform form input[type="submit"] {
+    font-size: 15px;
+  }
+
+  #signupform {
+    width: 100vw;
+    margin-top: 12vh;
+  }
+}

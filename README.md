@@ -50,7 +50,7 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
 2. Sign Up Page - <img src="docs\wireframe\signup.png">
 2.1. Sign Up Mobile - <img src="docs\wireframe\signupmobile.png">
 
-#### Technologies Used
+#### Tools Used
 
 1. Google Fonts: [Link](https://fonts.google.com/)
 2. Font Awesome: [Link](https://fontawesome.com/)
@@ -58,6 +58,11 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
 4. GitHub: [Link](https://github.com/)
 5. Draw.io: [Link](https://https://app.diagrams.net/)
 6. Favicon: [Link](https://Favicon.io/)
+
+#### Technologies Used
+
+1. HTML
+2. CSS
 
 ## Structure
 

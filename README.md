@@ -56,7 +56,7 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
 2. Font Awesome: [Link](https://fontawesome.com/)
 3. Ideogram: [Link](https://ideogram.ai/)
 4. GitHub: [Link](https://github.com/)
-5. Balsamiq: [Link](https://balsamiq.com/)
+5. Draw.io: [Link](https://https://app.diagrams.net/)
 6. Favicon: [Link](https://Favicon.io/)
 
 ## Structure

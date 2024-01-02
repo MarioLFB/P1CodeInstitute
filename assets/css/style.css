@@ -472,9 +472,10 @@ input {
   /* NAV BAR SIGNUP BUTTOM */
 
   .signupnavbar {
-    background-color: orange;
+    color: orange;
     padding: 15px;
-    border-radius: 5%;
+    font-size: 20px;
+    margin-right: 2vw;
   }
 
   #logo {

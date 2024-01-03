@@ -22,7 +22,7 @@
     5. [Wireframes](#wireframes)
 4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
-    2. [Frameworks & Tools](#frameworks-&-tools)
+    2. [Tools](#tools)
 5. [Features](#features)
 6. [Testing](#validation)
     1. [HTML Validation](#HTML-validation)
@@ -130,7 +130,7 @@ The website comprises 2 internal pages (Home and Signup) and an internal anchor 
 - HTML
 - CSS
 
-#### Tools Used
+### Tools
 
 1. Google Fonts: [Link](https://fonts.google.com/)
 2. Font Awesome: [Link](https://fontawesome.com/)

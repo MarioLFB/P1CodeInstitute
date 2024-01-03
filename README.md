@@ -162,7 +162,7 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
 <img src="docs\tests\lighthousehomepage.png">
 
 #### Sign Up
-<img src="docs\tests\lighthousehomepage.png">
+<img src="docs\tests\lighthousesignup.png">
 
 
 ### Future updates area

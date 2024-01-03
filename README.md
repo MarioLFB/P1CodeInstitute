@@ -57,7 +57,6 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
 3. Ideogram: [Link](https://ideogram.ai/)
 4. GitHub: [Link](https://github.com/)
 5. Draw.io: [Link](https://https://app.diagrams.net/)
-6. Favicon: [Link](https://Favicon.io/)
 
 #### Technologies Used
 
@@ -133,6 +132,38 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
 - The page provides the user with the form to request the product on the left side. On the right side, there is a complementary logo for the project.
 
 ![Sign Up Page](docs/features/signuppage.png)
+
+### WAVE Web Accessibility Evaluation
+
+- The WAVE Web Accessibility Evaluation tool is used to assess web accessibility and identify potential issues, with all tests reported without problems.
+
+#### Home
+![WAVE Home Page](docs\tests\wavehomepage.png)
+
+#### Sign Up
+![WAVE Sign Up](docs\tests\wavesignup.png)
+
+### W3C Validator
+
+- The W3C Validator is employed for validating web documents, and all HTML tests were executed with significant performance.
+
+#### img 1 and 2
+
+### CSS Validation Service
+
+- The CSS Validation Service is used to check the validity of CSS code, and the test was conducted with no reported errors.
+![CSS Validation](docs\tests\w3ccssvalidation.png)
+
+### Lighthouse report
+
+- The Lighthouse report is utilized to evaluate web page performance, and all tests were conducted with significant performance.
+
+#### Home
+![Lighthouse Home](docs\tests\lighthousehomepage.png)
+
+#### Sign Up
+![Lighthouse Sign Up](docs\tests\lighthousehomepage.png)
+
 
 
 ### Future updates area

@@ -1,54 +1,134 @@
-<h1 align="center">Nebulabank</h1>
-
-[View the live project here.](https://mariolfb.github.io/P1CodeInstitute/)
-
-Introducing Nebulabank, an online financial institution focused on efficiency and innovation. Our goal is to provide accessible, secure, and convenient banking services. Our aim is to simplify the banking experience to meet modern demands.
+# Nebulabank
+(Developer: Mario Borges)
 
 <h2 align="center"><img src="https://i.ibb.co/M2T5RhL/nebulabank.png"></h2>
 
-## User Experience (UX)
+[View the live project here.](https://mariolfb.github.io/P1CodeInstitute/)
 
-### User stories
+## Table of Content
 
-#### First Time Visitor Goals
+1. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [User Requrements and Expectations](#user-requrements-and-expectations)
+    3. [User Stories](#user-stories)
+3. [Design](#design)
+    1. [Design Choices](#design-choices)
+    2. [Colour](#colours)
+    3. [Fonts](#fonts)
+    4. [Structure](#structure)
+    5. [Wireframes](#wireframes)
+4. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks & Tools](#frameworks-&-tools)
+5. [Features](#features)
+6. [Testing](#validation)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](#CSS-validation)
+    3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Device testing](#performing-tests-on-various-devices)
+    6. [Browser compatibility](#browser-compatability)
+    7. [Testing user stories](#testing-user-stories)
+8. [Bugs](#Bugs)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+11. [Acknowledgements](#acknowledgements)
 
-1. Clearly understand that the product is a new online bank.
-2. View the advantages the company provides.
-3. Quickly access the navigation menu, which includes options to contact and locate the company.
-4. Direct and prominently featured link in the navigation menu to acquire the product.
 
-#### Returning Visitor Goals
+## Project Goals 
 
-1. Establish closer contact with potential clients through communication channels, address, and social media.
-2. Explore additional details about the benefits of the bank account.
-3. Initiate the process of requesting a bank account and explore opportunities for referring new clients.
+### User Goals
+- Customer seeks a financial institution that evolves into a Financial and Investment Advisor, providing personalized guidance and insights for strategic financial decisions.
+- Seek assistance in navigating the online banking platform, and resolving any issues promptly.
+- Find easily accessible information about Nebulabank's customer support channels, including live chat, FAQs, and contact details.
 
-#### Frequent User Goals
+### Site Owner Goals
+- Expand customer base by attracting individuals seeking a banking institution with advisory services.
+- Enhance business visibility by promoting Nebulabank's evolution into a Financial and Investment Advisor.
+- Facilitate seamless communication for both prospective and current customers to engage with the institution.
+- Ensure easy access to crucial business information, fostering customer understanding and trust.
 
-1. Access updated information on investment opportunities and enhancements for managing the bank account.
-2. As a user of a financial institution, the primary aim is to establish more direct and prompt means of communication.
-3. Receive timely information about news and updates related to the financial market.
+## User Experience
 
-### Design
+### Target Audience
+- Individuals seeking personalized financial and investment advisory services.
+- Investors interested in innovative and efficient banking solutions.
+- Groups and organizations looking for a financial institution for strategic guidance.
+
+### User Requrements and Expectations
+- Quick and easy location of relevant information about financial guidance.
+- Quality content presentation and visually appealing design adaptable to different screen sizes.
+- Concise and easily readable content for quick understanding of service offerings.
+- Accessibility, ensuring that all users can fully enjoy the financial and investment advisory platform.
+
+### User Stories
+
+#### First-time User 
+- As a first-time user, I want to easily find the location of the financial institution.
+- I'd like to learn more about the financial institution as a newcomer.
+- As a first-time user, I aim to gather information about the services offered.
+- I want to get a sense of what to expect when using the financial institution's services for the first time.
+
+#### Returning User
+- Upon returning, I want to know the operating hours of the financial institution.
+- Upon returning, I would like to access details about the offered financial services.
+- As a returning user, I want to leave comments, suggestions, or messages for the customer service team.
+- When returning, I seek information about the financial institution on social media.
+- As a returning user, I wish to get acquainted with the CEO responsible for the financial institution.
+- Upon returning, I want to obtain directions on how to reach the financial institution.
+
+#### Site Owner
+- Facilitar para os usuários encontrarem informações sobre novos serviços financeiros.
+- Apresentar aos usuários insights relevantes sobre a instituição financeira.
+- Garantir que os usuários possam entrar em contato conosco de maneira fácil e eficiente.
+
+## Design
+
+### Design Choices
+The website was crafted to provide customers with clear access to a site with a well-defined purpose and services presented in a straightforward manner. Colors and containers were employed to highlight the information effectively. The prominently featured image of the CEO serves the purpose of instilling credibility.
 
 #### Colour Scheme
+- The primary colors used in the project are Dark Navy Blue (RGB 2,0,38) and Pale Yellow (RGB 243,240,209).
+![Colour scheme](docs\features\colorpalette.png)
 
-- The primary colors used in the project are Dark Navy Blue and Pale Yellow.
+### Fonts
+The main font used is Raleway, and in some instances, the Bungee font is employed for additional stylization in the project. In case of any issues, the fallback font is a sans-serif.
 
-#### Typography
+### Structure
+The website comprises 2 internal pages (Home and Signup) and an internal anchor link to the Contact section.
 
-- The main font used is Raleway, and in some instances, the Bungee font is employed for additional stylization in the project. In case of any issues, the fallback font is a sans-serif.
-
-#### Imagery
-
-- The main image on the home page features the CEO of the company, aiming to instill credibility in the product and brand. On the SignUp page, an alternative image of the project's logo is used to provide a visually appealing aspect for the user.
+- Menu Bar Structured with the Logo and 3 links (Home, Contact, and Signup).
+- Contains sections with relevant information, including the company's advantages.
+- Direct anchor link to the specific area at the end of the Homepage, featuring operating hours, a contact form, and a map with location and address details.
+- Provides institutional information and external links to the institution's social media.
+- Grants users access to an exclusive page containing a form to request the product.
+- On the Homepage, there's an image of the CEO along with a message to the customer. On the Signup page, there's a logo design for the brand.
 
 #### Wireframes
+<details><summary>Home Page</summary>
+<img src="docs\wireframe\homepage.png">
+</details>
 
-1. Home Page - <img src="docs\wireframe\homepage.png">
-1.1 Home Page Mobile - <img src="docs\wireframe\homepagemobile.png">
-2. Sign Up Page - <img src="docs\wireframe\signup.png">
-2.1. Sign Up Mobile - <img src="docs\wireframe\signupmobile.png">
+<details><summary>Home Page Mobile</summary>
+<img src="docs\wireframe\homepagemobile.png">
+</details>
+
+<details><summary>Sign Up Page</summary>
+<img src="docs\wireframe\signup.png">
+</details>
+
+<details><summary>Sign Up Mobile</summary>
+<img src="docs\wireframe\signupmobile.png">
+</details>
+
+## Technologies Used
+
+### Languages
+- HTML
+- CSS
 
 #### Tools Used
 
@@ -57,22 +137,37 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
 3. Ideogram: [Link](https://ideogram.ai/)
 4. GitHub: [Link](https://github.com/)
 5. Draw.io: [Link](https://https://app.diagrams.net/)
+6. Color Spire: [Link](https://colorspire.com/)
 
-#### Technologies Used
 
-1. HTML
-2. CSS
 
-## Structure
 
-- The website comprises 2 internal pages (Home and Signup) and an internal anchor link to the Contact section.
 
-1. **Menu Bar:** Structured with the Logo and 3 links (Home, Contact, and Signup).
-2. **Home:** Contains sections with relevant information, including the company's advantages.
-3. **Contact:** Direct anchor link to the specific area at the end of the Homepage, featuring operating hours, a contact form, and a map with location and address details.
-4. **Footer:** Provides institutional information and external links to the institution's social media.
-5. **Signup Page:** Grants users access to an exclusive page containing a form to request the product.
-6. **Images:** On the Homepage, there's an image of the CEO along with a message to the customer. On the Signup page, there's a logo design for the brand.
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------
+
+
+
+
+
+
+
+
+#### Imagery
+
+- The main image on the home page features the CEO of the company, aiming to instill credibility in the product and brand. On the SignUp page, an alternative image of the project's logo is used to provide a visually appealing aspect for the user.
+
+
+
 
 ### Navigation Bar (Logo, Home, Contact, and Signup):
 

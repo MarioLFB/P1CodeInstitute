@@ -92,7 +92,7 @@ The website was crafted to provide customers with clear access to a site with a 
 
 #### Colour Scheme
 - The primary colors used in the project are Dark Navy Blue (RGB 2,0,38) and Pale Yellow (RGB 243,240,209).
-![Colour scheme](docs\features\colorpalette.png)
+<img src="docs\features\colorpalette.png">
 
 ### Fonts
 The main font used is Raleway, and in some instances, the Bungee font is employed for additional stylization in the project. In case of any issues, the fallback font is a sans-serif.

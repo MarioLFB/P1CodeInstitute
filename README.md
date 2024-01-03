@@ -138,10 +138,10 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
 - The WAVE Web Accessibility Evaluation tool is used to assess web accessibility and identify potential issues, with all tests reported without problems.
 
 #### Home
-![WAVE Home Page](docs\tests\wavehomepage.png)
+<img src="docs\tests\wavehomepage.png">
 
 #### Sign Up
-![WAVE Sign Up](docs\tests\wavesignup.png)
+<img src="docs\tests\wavesignup.png">
 
 ### W3C Validator
 
@@ -152,18 +152,17 @@ Introducing Nebulabank, an online financial institution focused on efficiency an
 ### CSS Validation Service
 
 - The CSS Validation Service is used to check the validity of CSS code, and the test was conducted with no reported errors.
-![CSS Validation](docs\tests\w3ccssvalidation.png)
+<img src="docs\tests\w3ccssvalidation.png">
 
 ### Lighthouse report
 
 - The Lighthouse report is utilized to evaluate web page performance, and all tests were conducted with significant performance.
 
 #### Home
-![Lighthouse Home](docs\tests\lighthousehomepage.png)
+<img src="docs\tests\lighthousehomepage.png">
 
 #### Sign Up
-![Lighthouse Sign Up](docs\tests\lighthousehomepage.png)
-
+<img src="docs\tests\lighthousehomepage.png">
 
 
 ### Future updates area

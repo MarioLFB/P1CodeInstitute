@@ -251,11 +251,82 @@ The website underwent testing on the subsequent web browsers:
 - Microsoft Egde
 
 ### Testing user stories
+
 1. As a first-time user, I want to easily find the location of the financial institution.
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Map | Go to the Contact Us page, find the Google Map | Locate a map displaying the company's location | Functions as anticipated |
-| Footer - contact information section | Scroll down to the footer on any page | Discover the company's address | Operates as intended |
+- Feature: Map and Footer
+- Action: Go to the Contact anchor link
+- Expected Result: The user will be taken directly to the section.
+- Result: Operates as intended 
+
+2. I'd like to learn more about the financial institution as a newcomer.
+- Feature: Financial Container
+- Action: Located immediately upon opening the homepage.
+- Expected Result: Visible as the first piece of information.
+- Result: Operates as intended 
+
+3. As a first-time user, I aim to gather information about the services offered.
+- Feature: Advertising Container 1
+- Action: Scroll down the website. Located just below the Financial Container.
+- Expected Result: Visible right after the Financial Container.
+- Result: Operates as intended 
+
+4. I want to get a sense of what to expect when using the financial institution's services.
+- Feature: CEO Photo and Message
+- Action: Located immediately to the right of the Financial Container.
+- Expected Result: Visible as the first piece of information.
+- Result: Operates as intended 
+
+5. Upon returning, I want to know the operating hours of the financial institution.
+- Feature: Business Hours
+- Action: Accessed through the anchor link 'Contact' or by scrolling down the Home Page to the footer
+- Expected Result: Anchor link leads directly to the mentioned area.
+- Result: Operates as intended 
+
+6. Upon returning, I would like to access details about the offered financial services.
+- Feature: Advertising Container 2
+- Action: Located just below Advertising Container 1. Scroll down to the center of the homepage.
+- Expected Result: Visible right after the Advertising Container 1
+- Result: Operates as intended 
+
+7. As a returning user, I want to leave comments, suggestions, or messages for the customer service team. Get in Touch with Us
+- Feature: Get in Touch with Us
+- Action: Accessed through the anchor link 'Contact' or by scrolling down the Home Page to the footer
+- Expected Result: Anchor link leads directly to the mentioned area.
+- Result: Operates as intended 
+
+8. When returning, I seek information about the financial institution on social media.
+- Feature: Footer
+- Action: Scroll down the website until you reach the footer. (The anchor link 'Contact' also takes the user to this section.)
+- Expected Result: Guide the user to the mentioned section.
+- Result: Operates as intended 
+
+9. As a returning user, I wish to get acquainted with the CEO responsible for the financial institution.
+- Feature: CEO Photo and Message
+- Action: Located immediately to the right of the Financial Container.
+- Expected Result: Visible as the first piece of information.
+- Result: Operates as intended 
+
+10. Upon returning, I want to obtain directions on how to reach the financial institution.
+- Feature: Map
+- Action: Scroll down the website until you reach the footer. (The anchor link 'Contact' also takes the user to this section.)
+- Expected Result: Guide the user to the mentioned section.
+- Result: Operates as intended 
+
+11. Make it easy for users to find information about new financial services.
+- Feature: Financial Container, Advertising Container 1 and Advertising Container 2
+- Action: Located immediately upon opening the homepage.
+- Expected Result: Visible as the first piece of information.
+- Result: Operates as intended 
+
+12. Provide users with relevant insights about the financial institution.
+- Feature: CEO Message, Financial Container, Advertising Container 1 and Advertising Container 2
+- Action: immediately upon opening the homepage.
+- Expected Result: Visible as the first piece of information.
+- Result: Operates as intended 
+
+13. Ensure that users can contact us easily and efficiently.
+
+
 
 
 

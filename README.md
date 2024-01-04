@@ -67,23 +67,23 @@
 ### User Stories
 
 #### First-time User 
-- As a first-time user, I want to easily find the location of the financial institution.
-- I'd like to learn more about the financial institution as a newcomer.
-- As a first-time user, I aim to gather information about the services offered.
-- I want to get a sense of what to expect when using the financial institution's services for the first time.
+1. As a first-time user, I want to easily find the location of the financial institution.
+2. I'd like to learn more about the financial institution as a newcomer.
+3. As a first-time user, I aim to gather information about the services offered.
+4. I want to get a sense of what to expect when using the financial institution's services.
 
-#### Returning User
-- Upon returning, I want to know the operating hours of the financial institution.
-- Upon returning, I would like to access details about the offered financial services.
-- As a returning user, I want to leave comments, suggestions, or messages for the customer service team.
-- When returning, I seek information about the financial institution on social media.
-- As a returning user, I wish to get acquainted with the CEO responsible for the financial institution.
-- Upon returning, I want to obtain directions on how to reach the financial institution.
+#### Returning User 
+5. Upon returning, I want to know the operating hours of the financial institution.
+6. Upon returning, I would like to access details about the offered financial services.
+7. As a returning user, I want to leave comments, suggestions, or messages for the customer service team.
+8. When returning, I seek information about the financial institution on social media.
+9. As a returning user, I wish to get acquainted with the CEO responsible for the financial institution.
+10. Upon returning, I want to obtain directions on how to reach the financial institution.
 
 #### Site Owner
-- Facilitar para os usuários encontrarem informações sobre novos serviços financeiros.
-- Apresentar aos usuários insights relevantes sobre a instituição financeira.
-- Garantir que os usuários possam entrar em contato conosco de maneira fácil e eficiente.
+11. Make it easy for users to find information about new financial services.
+12. Provide users with relevant insights about the financial institution.
+13. Ensure that users can contact us easily and efficiently.
 
 ## Design
 
@@ -138,6 +138,133 @@ The website comprises 2 internal pages (Home and Signup) and an internal anchor 
 4. GitHub: [Link](https://github.com/)
 5. Draw.io: [Link](https://https://app.diagrams.net/)
 6. Color Spire: [Link](https://colorspire.com/)
+
+## Features
+The page consists of two page, an anchor link to a contact area and eleven features
+
+### Logo and Navigation Bar
+- The navigation bar exhibits complete responsiveness, transforming into a toggler (hamburger menu) when viewed on smaller screens. It encompasses links directing users to the Homepage, Contact section, and Sign Up page, facilitating seamless navigation throughout the webpage.
+
+![Navbar](docs/features/nebulabanknavbar.png)
+
+### Financial Container
+- Enables users to explore tailored financial solutions, savings opportunities, investment guidance, and debt-related insights for optimized wealth building.
+- User stories covered: 2, 4, 6, 11 and 12
+
+![Container](docs\features\financialadvice.png)
+
+### CEO Photo and Message
+- The image and message from the CEO provide users with a closer connection to a key figure in the company, aiming to instill credibility in both the product and the company itself.
+- User stories covered: 4 and 9
+
+![CEO](docs\features\ceomessage.png)
+
+### Advertising Container 1
+- Upon viewing this container, the user gains a deeper understanding of the offered service, reinforcing and elaborating on the previously presented information.
+- User stories covered: 3, 4, 6 and 12
+
+![Adv 1](docs\features\advertisingcontainer1.png)
+
+### Advertising Container 2
+- When users delve into this container, they acquire additional and detailed insights into how the service is delivered.
+- User stories covered: 3 and 12
+
+![Adv 2](docs\features\advertisingcontainer2.png)
+
+### Get in Touch with Us
+- The form provides the user with the experience of reaching out to the company.
+- User stories covered: 7 and 13
+
+![Get in Touch with Us](docs/features/getintouchwithus.png)
+
+### Business Hours
+- Utilizing list formatting, provide the user with the company's operating hours.
+- User stories covered: 5
+
+![Business Hours](docs/features/businesshours.png)
+
+### Company Location (Map)
+- The map provides the user with accurate visual information about the company's location, instilling credibility with the customer.
+- User stories covered: 1 and 13
+
+![Company Location](docs/features/nebulamap.png)
+
+### The footer
+- Brings institutional information about the company, as well as functional external links redirecting to the external pages of the social media platforms.
+- User stories covered: 1, 8, 10 and 13
+
+![Footer](docs/features/footer.png)
+
+### Sign Up Page (Request your Consultant)
+- The page provides the user with the form to request the product on the left side. On the right side, there is a complementary logo for the project.
+- User stories covered: 6 and 7
+
+![Request Consultant](docs\features\requestyourconsultant.png)
+
+### Complementary Image (Logo)
+- Enhance user experience by displaying complementary images to enrich content and engagement on the website.
+
+![Request Consultant](docs\features\nebulalogo.png)
+
+## Validation
+
+### HTML Validation
+The W3C Validator is employed for validating web documents, and all HTML tests were executed with significant performance.
+img 1 and 2
+
+### CSS Validation
+The CSS Validation Service is used to check the validity of CSS code, and the test was conducted with no reported errors.
+<details><summary>style.css</summary>
+<img src="docs\tests\w3ccssvalidation.png">
+</details>
+
+### Accessibility
+The WAVE Web Accessibility Evaluation tool is used to assess web accessibility and identify potential issues, with all tests reported without problems.
+<details><summary>Home</summary>
+<img src=<img src="docs\tests\wavehomepage.png">
+</details>
+<details><summary>Sign Up</summary>
+<img src="docs\tests\wavesignup.png">
+</details>
+
+### Performance
+The Lighthouse report is utilized to evaluate web page performance, and all tests were conducted with significant performance.
+<details><summary>Home</summary>
+<img src="docs\tests\lighthousehomepage.png">
+</details>
+<details><summary>Sign Up</summary>
+<img src="docs\tests\lighthousesignup.png">
+</details>
+
+### Performing tests on various devices 
+The website underwent testing on the subsequent devices:
+- Iphone 14 Pro Max
+- Iphone 15 Pro
+- Samsung Galaxy S23
+
+The website was tested across various devices using Google Chrome Developer Tools.
+
+### Browser compatability
+The website underwent testing on the subsequent web browsers:
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Egde
+
+### Testing user stories
+1. As a first-time user, I want to easily find the location of the financial institution.
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Go to the Contact Us page, find the Google Map | Locate a map displaying the company's location | Functions as anticipated |
+| Footer - contact information section | Scroll down to the footer on any page | Discover the company's address | Operates as intended |
+
+
+
+
+
+
+
+
+
 
 
 

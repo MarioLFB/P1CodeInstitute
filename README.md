@@ -151,7 +151,7 @@ The page consists of two page, an anchor link to a contact area and eleven featu
 - Enables users to explore tailored financial solutions, savings opportunities, investment guidance, and debt-related insights for optimized wealth building.
 - User stories covered: 2, 4, 6, 11 and 12
 
-![Container](docs\features\financialadvice.png)
+![Container](docs/features/financialadvice.png)
 
 ### CEO Photo and Message
 - The image and message from the CEO provide users with a closer connection to a key figure in the company, aiming to instill credibility in both the product and the company itself.

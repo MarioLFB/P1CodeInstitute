@@ -364,3 +364,8 @@ To clone the repository, follow these steps:
 - The images used (logo, CEO's picture and 404error) were artificially created and are unique. The Ideogram website was the tool used for the generation of these artificial images.
 - All codes were created individually, privately and personally. I utilized the guidance and modules provided by the Code Institute with the intention of avoiding external interference, putting into practice all the content covered only by the course up to this point.
 - The project was supervised and guided by Mentor Mo Shami.
+
+
+
+
+

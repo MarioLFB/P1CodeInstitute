@@ -204,7 +204,7 @@ The page consists of two page, an anchor link to a contact area and eleven featu
 ### Complementary Image (Logo)
 - Enhance user experience by displaying complementary images to enrich content and engagement on the website.
 
-![Request Consultant](docs\features\nebulalogo.png)
+![Request Consultant](docs/features/nebulalogo.png)
 
 ## Validation
 
@@ -251,7 +251,6 @@ The website underwent testing on the subsequent web browsers:
 - Microsoft Egde
 
 ### Testing user stories
-
 1. As a first-time user, I want to easily find the location of the financial institution.
 - Feature: Map and Footer
 - Action: Go to the Contact anchor link
@@ -325,139 +324,43 @@ The website underwent testing on the subsequent web browsers:
 - Result: Operates as intended 
 
 13. Ensure that users can contact us easily and efficiently.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-------------------------------------------------------
-
-
-
-
-
-
-
-
-#### Imagery
-
-- The main image on the home page features the CEO of the company, aiming to instill credibility in the product and brand. On the SignUp page, an alternative image of the project's logo is used to provide a visually appealing aspect for the user.
-
-
-
-
-### Navigation Bar (Logo, Home, Contact, and Signup):
-
-- The entire navigation bar is fully responsive.
-
-1. Logo (internal anchor link to the homepage)
-2. Home (internal anchor link to the homepage)
-3. Contact (internal anchor link to the designated area within the Home)
-4. Signup (Link to the Signup page)
-
-![Navbar](docs/features/nebulabanknavbar.png)
-
-### Landing Page (Product Advantages and Benefits, CEO's Message, and Additional Benefit Messages to Capture Clients):
-
-#### Section 1
-
-1. Introduction about the Bank's Benefits
-2. CEO's Message to Users
-
-![Landing Page 1](docs/features/nebulalp1.png)
-
-#### Section 2
-
-1. Message to promote the bank app
-2. Message regarding financial investment
-
-![Landing Page 2](docs/features/nebulalp2.png)
-
-### Contact Area (Get in Touch with Us, Business Hours, and Company Location):
-
-#### Get in Touch with Us
-
-- The form provides the user with the experience of reaching out to the company.
-
-![Get in Touch with Us](docs/features/getintouchwithus.png)
-
-#### Business Hours
-
-- Utilizing list formatting, provide the user with the company's operating hours.
-
-![Business Hours](docs/features/businesshours.png)
-
-#### Company Location (Map)
-
-- The map provides the user with accurate visual information about the company's location, instilling credibility with the customer.
-
-![Company Location](docs/features/nebulamap.png)
-
-### The footer
-
-- Brings institutional information about the company, as well as functional external links redirecting to the external pages of the social media platforms.
-
-![Footer](docs/features/footer.png)
-
-### Sign Up Page
-
-- The page provides the user with the form to request the product on the left side. On the right side, there is a complementary logo for the project.
-
-![Sign Up Page](docs/features/signuppage.png)
-
-### WAVE Web Accessibility Evaluation
-
-- The WAVE Web Accessibility Evaluation tool is used to assess web accessibility and identify potential issues, with all tests reported without problems.
-
-#### Home
-<img src="docs\tests\wavehomepage.png">
-
-#### Sign Up
-<img src="docs\tests\wavesignup.png">
-
-### W3C Validator
-
-- The W3C Validator is employed for validating web documents, and all HTML tests were executed with significant performance.
-
-#### img 1 and 2
-
-### CSS Validation Service
-
-- The CSS Validation Service is used to check the validity of CSS code, and the test was conducted with no reported errors.
-<img src="docs\tests\w3ccssvalidation.png">
-
-### Lighthouse report
-
-- The Lighthouse report is utilized to evaluate web page performance, and all tests were conducted with significant performance.
-
-#### Home
-<img src="docs\tests\lighthousehomepage.png">
-
-#### Sign Up
-<img src="docs\tests\lighthousesignup.png">
-
-
-### Future updates area
-
-- Section reserved for future updates.
+- Feature: Get in Touch with Us and The footer
+- Action: Scroll down the website until you reach the footer. (The anchor link 'Contact' also takes the user to this section.)
+- Expected Result: Guide the user to the mentioned section.
+- Result: Operates as intended
+
+## Bugs
+
+- Addressed the issue with the mainsection class to ensure proper closure of the section tag.
+Resolved
+- Map overload when opened on mobile devices. Add height and width to the map using a media query.
+Resolved.
+- The container that wraps the "Sign Up" button inside the navigation menu was not in accordance with the standard colors and accessibility contrast. Modified the color of the container and the color of the "Sign Up" button.
+Resolved.
+- Navigation bar, when opened on larger screens, was extending beyond the Financial Container. Added margin to the top of the Financial Container for increased spacing between the containers.
+Resolved.
+
+The deployment of the website occurred through the utilization of GitHub Pages, involving the following procedures:
+1. Access the Settings tab within the GitHub repository.
+2. Choose the Pages option from the menu on the left.
+3. Set the source branch to 'master.'
+4. Following an automatic refresh of the webpage, a banner will appear at the top indicating: "Your site is live at https://mariolfb.github.io/P1CodeInstitute/.
+
+To fork the repository, proceed with the following steps:
+1. Visit the GitHub repository.
+2. Click on the "Fork" button located in the upper-right corner.
+
+To clone the repository, follow these steps:
+
+1. Visit the GitHub repository.
+2. Above the list of files, find the "Code" button and click on it.
+3. Choose your preferred cloning method - HTTPS, SSH, or Github CLI - and click the copy button to copy the URL to your clipboard.
+4. Open Git Bash.
+5. Navigate to the directory where you want the cloned repository to be located.
+6. Type "git clone" and paste the copied URL from the clipboard (e.g., $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY).
+7. Press Enter to create your local clone.
+
+## Credits
+- The images used (logo, CEO's picture and 404error) were artificially created and are unique. The Ideogram website was the tool used for the generation of these artificial images.
+- All codes were created individually, privately and personally. I utilized the guidance and modules provided by the Code Institute with the intention of avoiding external interference, putting into practice all the content covered only by the course up to this point.
+- The project was supervised and guided by Mentor Mo Shami.

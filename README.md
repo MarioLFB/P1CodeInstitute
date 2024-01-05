@@ -145,7 +145,7 @@ The page consists of two page, an anchor link to a contact area and eleven featu
 ### Logo and Navigation Bar
 - The navigation bar exhibits complete responsiveness, transforming into a toggler (hamburger menu) when viewed on smaller screens. It encompasses links directing users to the Homepage, Contact section, and Sign Up page, facilitating seamless navigation throughout the webpage.
 
-![Navbar](docs/features/nebulabanknavbar.png)
+![Navbar](docs\features\nebulabanknavbar.png)
 
 ### Financial Container
 - Enables users to explore tailored financial solutions, savings opportunities, investment guidance, and debt-related insights for optimized wealth building.

@@ -77,13 +77,12 @@
 6. Upon returning, I would like to access details about the offered financial services.
 7. As a returning user, I want to leave comments, suggestions, or messages for the customer service team.
 8. When returning, I seek information about the financial institution on social media.
-9. As a returning user, I wish to get acquainted with the CEO responsible for the financial institution.
-10. Upon returning, I want to obtain directions on how to reach the financial institution.
 
 #### Site Owner
-11. Make it easy for users to find information about new financial services.
-12. Provide users with relevant insights about the financial institution.
-13. Ensure that users can contact us easily and efficiently.
+9. As a returning user, I expect to get in touch to request a financial consultant.
+10. Ensure that when accessing a non-existent URL, the user is redirected to the 404 error page.
+11. As the owner, I want the user to access the navigation bar with ease.
+12. As the owner, I want the user to view our logos. The main logo is located in the navigation bar, and the alternative logo is found on the Sign Up page.
 
 ## Design
 
@@ -142,14 +141,14 @@ The website comprises 2 internal pages (Home and Signup) and an internal anchor 
 ## Features
 The page consists of two page, an anchor link to a contact area and eleven features
 
-### Logo and Navigation Bar
+### Navigation Bar
 - The navigation bar exhibits complete responsiveness, transforming into a toggler (hamburger menu) when viewed on smaller screens. It encompasses links directing users to the Homepage, Contact section, and Sign Up page, facilitating seamless navigation throughout the webpage.
-
+- User stories covered: 11 and 12
 ![Navbar](docs\features\nebulabanknavbar.png)
 
 ### Financial Container
 - Enables users to explore tailored financial solutions, savings opportunities, investment guidance, and debt-related insights for optimized wealth building.
-- User stories covered: 2, 4, 6, 11 and 12
+- User stories covered: 2 and 6
 
 ![Container](docs/features/financialadvice.png)
 
@@ -161,19 +160,19 @@ The page consists of two page, an anchor link to a contact area and eleven featu
 
 ### Advertising Container 1
 - Upon viewing this container, the user gains a deeper understanding of the offered service, reinforcing and elaborating on the previously presented information.
-- User stories covered: 3, 4, 6 and 12
+- User stories covered: 3, 4 and 6
 
 ![Adv 1](docs/features/advertisingcontainer1.png)
 
 ### Advertising Container 2
 - When users delve into this container, they acquire additional and detailed insights into how the service is delivered.
-- User stories covered: 3 and 12
+- User stories covered: 4 and 6
 
 ![Adv 2](docs/features/advertisingcontainer2.png)
 
 ### Get in Touch with Us
 - The form provides the user with the experience of reaching out to the company.
-- User stories covered: 7 and 13
+- User stories covered: 7
 
 ![Get in Touch with Us](docs/features/getintouchwithus.png)
 
@@ -185,21 +184,27 @@ The page consists of two page, an anchor link to a contact area and eleven featu
 
 ### Company Location (Map)
 - The map provides the user with accurate visual information about the company's location, instilling credibility with the customer.
-- User stories covered: 1 and 13
+- User stories covered: 1
 
 ![Company Location](docs/features/nebulamap.png)
 
 ### The footer
 - Brings institutional information about the company, as well as functional external links redirecting to the external pages of the social media platforms.
-- User stories covered: 1, 8, 10 and 13
+- User stories covered: 8
 
 ![Footer](docs/features/footer.png)
 
 ### Sign Up Page (Request your Consultant)
-- The page provides the user with the form to request the product on the left side. On the right side, there is a complementary logo for the project.
-- User stories covered: 6 and 7
+- The page provides the user with the form to request the Financial Consultant. On the right side, there is a complementary logo for the project.
+- User stories covered: 9 and 12
 
 ![Request Consultant](docs/features/requestyourconsultant.png)
+
+### 404 Error Page
+- The benefit for the user when accessing the 404 page is receiving clear communication that the requested resource is not available, along with helpful directions for further navigation on the site. This provides a more informative and guided experience, assisting the user in easily finding what they are looking for even after the initial error.
+- User stories covered: 10
+
+![Request Consultant](docs\features\404page.png)
 
 ### Complementary Image (Logo)
 - Enhance user experience by displaying complementary images to enrich content and engagement on the website.
@@ -256,78 +261,105 @@ The website underwent testing on the subsequent web browsers:
 - Action: Go to the Contact anchor link
 - Expected Result: The user will be taken directly to the section.
 - Result: Operates as intended 
+<details><summary>Screenshots</summary>
+<img src="docs\testing_user_stories\testuser1.png">
+<img src="docs\testing_user_stories\testuser1_1.png">
+</details>
 
 2. I'd like to learn more about the financial institution as a newcomer.
 - Feature: Financial Container
 - Action: Located immediately upon opening the homepage.
 - Expected Result: Visible as the first piece of information.
 - Result: Operates as intended 
+<details><summary>Screenshots</summary>
+<img src="docs\testing_user_stories\testuser2.png">
+</details>
 
 3. As a first-time user, I aim to gather information about the services offered.
 - Feature: Advertising Container 1
 - Action: Scroll down the website. Located just below the Financial Container.
 - Expected Result: Visible right after the Financial Container.
 - Result: Operates as intended 
+<details><summary>Screenshots</summary>
+<img src="docs\testing_user_stories\testuser3.png">
+</details>
 
 4. I want to get a sense of what to expect when using the financial institution's services.
 - Feature: CEO Photo and Message
 - Action: Located immediately to the right of the Financial Container.
 - Expected Result: Visible as the first piece of information.
 - Result: Operates as intended 
+<details><summary>Screenshots</summary>
+<img src="docs\testing_user_stories\testuser4.png">
+</details>
 
 5. Upon returning, I want to know the operating hours of the financial institution.
 - Feature: Business Hours
-- Action: Accessed through the anchor link 'Contact' or by scrolling down the Home Page to the footer
-- Expected Result: Anchor link leads directly to the mentioned area.
-- Result: Operates as intended 
+- Action: Scroll the website towards the footer. The Business Hours container is located on the right side, just above the map.
+- Expected Result: Guide the user to the mentioned section.
+- Result: Operates as intended
+<details><summary>Screenshots</summary>
+<img src="docs\testing_user_stories\testuser5.png">
+</details>
 
 6. Upon returning, I would like to access details about the offered financial services.
 - Feature: Advertising Container 2
 - Action: Located just below Advertising Container 1. Scroll down to the center of the homepage.
 - Expected Result: Visible right after the Advertising Container 1
 - Result: Operates as intended 
+<details><summary>Screenshots</summary>
+<img src="docs\testing_user_stories\testuser6.png">
+</details>
 
 7. As a returning user, I want to leave comments, suggestions, or messages for the customer service team. Get in Touch with Us
 - Feature: Get in Touch with Us
 - Action: Accessed through the anchor link 'Contact' or by scrolling down the Home Page to the footer
 - Expected Result: Anchor link leads directly to the mentioned area.
 - Result: Operates as intended 
+<details><summary>Screenshots</summary>
+<img src="docs\testing_user_stories\testuser7.png">
+</details>
 
 8. When returning, I seek information about the financial institution on social media.
-- Feature: Footer
-- Action: Scroll down the website until you reach the footer. (The anchor link 'Contact' also takes the user to this section.)
+- Feature: Footer (social media links)
+- Action: Scroll down the website until you reach the footer. Within the container, you will find the links to the social media profiles.
 - Expected Result: Guide the user to the mentioned section.
 - Result: Operates as intended 
+<details><summary>Screenshots</summary>
+<img src="docs\testing_user_stories\testuser8.png">
+</details>
 
-9. As a returning user, I wish to get acquainted with the CEO responsible for the financial institution.
-- Feature: CEO Photo and Message
-- Action: Located immediately to the right of the Financial Container.
+9. As a returning user, I expect to get in touch to request a Financial Consultant.
+- Feature: Sign Up Page
+- Action: Located in the navigation bar. On the top right, highlighted in orange. Takes the user to the page with the consultant request form.
 - Expected Result: Visible as the first piece of information.
 - Result: Operates as intended 
+<details><summary>Screenshots</summary>
+<img src="docs\testing_user_stories\testuser9.png">
+<img src="docs\testing_user_stories\testuser9_1.png">
+</details>
 
-10. Upon returning, I want to obtain directions on how to reach the financial institution.
-- Feature: Map
-- Action: Scroll down the website until you reach the footer. (The anchor link 'Contact' also takes the user to this section.)
-- Expected Result: Guide the user to the mentioned section.
+10. Page 404 provides users with clear communication that the requested resource is not available, offering helpful directions for further navigation on the site.
+- Feature: Page 404
+- Action: The 404 page is accessed automatically when a URL doesn't correspond to any resource on the server, indicating the nonexistence of the requested page.
+- Expected Result: The link to the 404 page is provided when necessary.
 - Result: Operates as intended 
+<details><summary>Screenshots</summary>
+<img src="docs\testing_user_stories\testuser10.png">
+</details>
 
-11. Make it easy for users to find information about new financial services.
-- Feature: Financial Container, Advertising Container 1 and Advertising Container 2
-- Action: Located immediately upon opening the homepage.
+11. The navigation bar is crucial for the user experience, providing easy access to main sections and clear guidance. Its consistent presence and responsive design contribute to intuitive and efficient navigation.
+- Feature: Navigation Bar
+- Action: Located at the top of the website, visible immediately upon loading.
 - Expected Result: Visible as the first piece of information.
 - Result: Operates as intended 
+<details><summary>Screenshots</summary>
+<img src="docs\testing_user_stories\testuser11.png">
+</details>
 
-12. Provide users with relevant insights about the financial institution.
-- Feature: CEO Message, Financial Container, Advertising Container 1 and Advertising Container 2
-- Action: immediately upon opening the homepage.
-- Expected Result: Visible as the first piece of information.
-- Result: Operates as intended 
+12. As the owner, I want the user to view our logos. The main logo is located in the navigation bar, and the alternative logo is found on the Sign Up page.
 
-13. Ensure that users can contact us easily and efficiently.
-- Feature: Get in Touch with Us and The footer
-- Action: Scroll down the website until you reach the footer. (The anchor link 'Contact' also takes the user to this section.)
-- Expected Result: Guide the user to the mentioned section.
-- Result: Operates as intended
+
 
 ## Bugs
 

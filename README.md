@@ -157,19 +157,19 @@ The page consists of two page, an anchor link to a contact area and eleven featu
 - The image and message from the CEO provide users with a closer connection to a key figure in the company, aiming to instill credibility in both the product and the company itself.
 - User stories covered: 4 and 9
 
-![CEO](docs\features\ceomessage.png)
+![CEO](docs/features/ceomessage.png)
 
 ### Advertising Container 1
 - Upon viewing this container, the user gains a deeper understanding of the offered service, reinforcing and elaborating on the previously presented information.
 - User stories covered: 3, 4, 6 and 12
 
-![Adv 1](docs\features\advertisingcontainer1.png)
+![Adv 1](docs/features/advertisingcontainer1.png)
 
 ### Advertising Container 2
 - When users delve into this container, they acquire additional and detailed insights into how the service is delivered.
 - User stories covered: 3 and 12
 
-![Adv 2](docs\features\advertisingcontainer2.png)
+![Adv 2](docs/features/advertisingcontainer2.png)
 
 ### Get in Touch with Us
 - The form provides the user with the experience of reaching out to the company.
@@ -199,7 +199,7 @@ The page consists of two page, an anchor link to a contact area and eleven featu
 - The page provides the user with the form to request the product on the left side. On the right side, there is a complementary logo for the project.
 - User stories covered: 6 and 7
 
-![Request Consultant](docs\features\requestyourconsultant.png)
+![Request Consultant](docs/features/requestyourconsultant.png)
 
 ### Complementary Image (Logo)
 - Enhance user experience by displaying complementary images to enrich content and engagement on the website.

@@ -41,9 +41,9 @@
 ## Project Goals 
 
 ### User Goals
-- Customer seeks a financial institution that evolves into a Financial and Investment Advisor, providing personalized guidance and insights for strategic financial decisions.
-- Seek assistance in navigating the online banking platform, and resolving any issues promptly.
-- Find easily accessible information about Nebulabank's customer support channels, including live chat, FAQs, and contact details.
+- The Nebulabank aims to attract clients in search of a financial institution, offering personalized guidance for strategic decisions. It provides specialized financial consultancy for individuals and businesses..
+- Seek assistance to navigate the bank's platform and easily understand the services offered through the developed Landing Page.
+- Find easily accessible information about Nebulabank's customer support channels, including social media links, location, and contact details.
 
 ### Site Owner Goals
 - Expand customer base by attracting individuals seeking a banking institution with advisory services.

@@ -97,7 +97,7 @@ The website was crafted to provide customers with clear access to a site with a 
 The main font used is Raleway, and in some instances, the Bungee font is employed for additional stylization in the project. In case of any issues, the fallback font is a sans-serif.
 
 ### Structure
-The website comprises 2 internal pages (Home and Signup) and an internal anchor link to the Contact section.
+The website comprises 3 internal pages (Home, Signup and 404 error) and an internal anchor link to the Contact section.
 
 - Menu Bar Structured with the Logo and 3 links (Home, Contact, and Signup).
 - Contains sections with relevant information, including the company's advantages.
@@ -148,13 +148,13 @@ The page consists of two page, an anchor link to a contact area and eleven featu
 
 ### Financial Container
 - Enables users to explore tailored financial solutions, savings opportunities, investment guidance, and debt-related insights for optimized wealth building.
-- User stories covered: 2 and 6
+- User stories covered: 2 and 4
 
 ![Container](docs/features/financialadvice.png)
 
 ### CEO Photo and Message
 - The image and message from the CEO provide users with a closer connection to a key figure in the company, aiming to instill credibility in both the product and the company itself.
-- User stories covered: 4 and 9
+- User stories covered: 6 and 9
 
 ![CEO](docs/features/ceomessage.png)
 
@@ -284,6 +284,15 @@ The website underwent testing on the subsequent web browsers:
 <img src="docs\testing_user_stories\testuser3.png">
 </details>
 
+4. Upon returning, I would like to access details about the offered financial services.
+- Feature: Advertising Container 2
+- Action: Located just below Advertising Container 1. Scroll down to the center of the homepage.
+- Expected Result: Visible right after the Advertising Container 1
+- Result: Operates as intended 
+<details><summary>Screenshots</summary>
+<img src="docs\testing_user_stories\testuser6.png">
+</details>
+
 4. I want to get a sense of what to expect when using the financial institution's services.
 - Feature: CEO Photo and Message
 - Action: Located immediately to the right of the Financial Container.
@@ -302,13 +311,13 @@ The website underwent testing on the subsequent web browsers:
 <img src="docs\testing_user_stories\testuser5.png">
 </details>
 
-6. Upon returning, I would like to access details about the offered financial services.
-- Feature: Advertising Container 2
-- Action: Located just below Advertising Container 1. Scroll down to the center of the homepage.
-- Expected Result: Visible right after the Advertising Container 1
+6. I want to get a sense of what to expect when using the financial institution's services.
+- Feature: CEO Photo and Message
+- Action: Located immediately to the right of the Financial Container.
+- Expected Result: Visible as the first piece of information.
 - Result: Operates as intended 
 <details><summary>Screenshots</summary>
-<img src="docs\testing_user_stories\testuser6.png">
+<img src="docs\testing_user_stories\testuser4.png">
 </details>
 
 7. As a returning user, I want to leave comments, suggestions, or messages for the customer service team. Get in Touch with Us
@@ -358,6 +367,14 @@ The website underwent testing on the subsequent web browsers:
 </details>
 
 12. As the owner, I want the user to view our logos. The main logo is located in the navigation bar, and the alternative logo is found on the Sign Up page.
+- Feature: Navigation Bar and Sign Up Page
+- Action: Located at the top of the website, visible immediately upon loading. Alternative logo within the Sign Up page, located to the right of the request form.
+- Expected Result: Visible as the first piece of information at the top the website. Alternative logo, to be visible on the right side of the request form within the Sign Up page.
+- Result: Operates as intended 
+<details><summary>Screenshots</summary>
+<img src="docs\testing_user_stories\testuser12.png">
+<img src="docs\testing_user_stories\testuser12_1.png">
+</details>
 
 
 

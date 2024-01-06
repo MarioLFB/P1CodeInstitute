@@ -58,7 +58,7 @@
 - Investors interested in innovative and efficient banking solutions.
 - Groups and organizations looking for a financial institution for strategic guidance.
 
-### User Requrements and Expectations
+### User Requirements and Expectations
 - Quick and easy location of relevant information about financial guidance.
 - Quality content presentation and visually appealing design adaptable to different screen sizes.
 - Concise and easily readable content for quick understanding of service offerings.
@@ -123,6 +123,10 @@ The website comprises 3 internal pages (Home, Signup and 404 error) and an inter
 <img src="docs\wireframe\signupmobile.png">
 </details>
 
+<details><summary>404 Error Page</summary>
+<img src="docs\wireframe\page404.png">
+</details>
+
 ## Technologies Used
 
 ### Languages
@@ -139,7 +143,7 @@ The website comprises 3 internal pages (Home, Signup and 404 error) and an inter
 6. Color Spire: [Link](https://colorspire.com/)
 
 ## Features
-The page consists of two page, an anchor link to a contact area and eleven features
+The page consists of three page (Home, Sign Up and 404error), an anchor link to a contact area and twelve features
 
 ### Navigation Bar
 - The navigation bar exhibits complete responsiveness, transforming into a toggler (hamburger menu) when viewed on smaller screens. It encompasses links directing users to the Homepage, Contact section, and Sign Up page, facilitating seamless navigation throughout the webpage.
@@ -226,7 +230,7 @@ The CSS Validation Service is used to check the validity of CSS code, and the te
 ### Accessibility
 The WAVE Web Accessibility Evaluation tool is used to assess web accessibility and identify potential issues, with all tests reported without problems.
 <details><summary>Home</summary>
-<img src=<img src="docs\tests\wavehomepage.png">
+<img src="docs\tests\wavehomepage.png">
 </details>
 <details><summary>Sign Up</summary>
 <img src="docs\tests\wavesignup.png">
@@ -376,8 +380,6 @@ The website underwent testing on the subsequent web browsers:
 <img src="docs\testing_user_stories\testuser12_1.png">
 </details>
 
-
-
 ## Bugs
 
 - Addressed the issue with the mainsection class to ensure proper closure of the section tag.
@@ -389,6 +391,7 @@ Resolved.
 - Navigation bar, when opened on larger screens, was extending beyond the Financial Container. Added margin to the top of the Financial Container for increased spacing between the containers.
 Resolved.
 
+##   Deployment
 The deployment of the website occurred through the utilization of GitHub Pages, involving the following procedures:
 1. Access the Settings tab within the GitHub repository.
 2. Choose the Pages option from the menu on the left.

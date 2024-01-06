@@ -148,7 +148,7 @@ The page consists of three page (Home, Sign Up and 404error), an anchor link to 
 ### Navigation Bar
 - The navigation bar exhibits complete responsiveness, transforming into a toggler (hamburger menu) when viewed on smaller screens. It encompasses links directing users to the Homepage, Contact section, and Sign Up page, facilitating seamless navigation throughout the webpage.
 - User stories covered: 11 and 12
-![Navbar](docs\features\nebulabanknavbar.png)
+![Navbar](docs/features/nebulabanknavbar.png)
 
 ### Financial Container
 - Enables users to explore tailored financial solutions, savings opportunities, investment guidance, and debt-related insights for optimized wealth building.
@@ -208,7 +208,7 @@ The page consists of three page (Home, Sign Up and 404error), an anchor link to 
 - The benefit for the user when accessing the 404 page is receiving clear communication that the requested resource is not available, along with helpful directions for further navigation on the site. This provides a more informative and guided experience, assisting the user in easily finding what they are looking for even after the initial error.
 - User stories covered: 10
 
-![Request Consultant](docs\features\404page.png)
+![Request Consultant](docs/features/404page.png)
 
 ### Complementary Image (Logo)
 - Enhance user experience by displaying complementary images to enrich content and engagement on the website.

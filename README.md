@@ -1,7 +1,7 @@
 # Nebulabank
 (Developer: Mario Borges)
 
-<h2 align="center"><img src="https://i.ibb.co/M2T5RhL/nebulabank.png"></h2>
+<h2 align="center"><img src="docs\amiresponsive.png"></h2>
 
 [View the live project here.](https://mariolfb.github.io/P1CodeInstitute/)
 

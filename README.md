@@ -219,7 +219,15 @@ The page consists of three page (Home, Sign Up and 404error), an anchor link to 
 
 ### HTML Validation
 The W3C Validator is employed for validating web documents, and all HTML tests were executed with significant performance.
-img 1 and 2
+<details><summary>Home</summary>
+<img src="docs\tests\htmlchecker_index.png">
+</details>
+<details><summary>Sign Up</summary>
+<img src="docs\tests\htmlchecker_signup.png">
+</details>
+<details><summary>404 Error</summary>
+<img src="docs\tests\htmlchecker_404.png">
+</details>
 
 ### CSS Validation
 The CSS Validation Service is used to check the validity of CSS code, and the test was conducted with no reported errors.
